@@ -1,0 +1,323 @@
+/* Light, illustrative stages for the services bento. Each scene plays a small
+   piece of real design work on a loop. Plain global CSS (the turbopack css rule
+   in next.config.ts disables CSS modules), so everything is svc- prefixed.
+   Base styles are the finished frame; keyframes add the motion, so
+   prefers-reduced-motion simply switches animation off. */
+
+.svc-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--tint);
+}
+.svc-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: radial-gradient(rgb(27 30 35 / 0.08) 1px, transparent 1.3px);
+  background-size: 14px 14px;
+  mask-image: linear-gradient(to bottom, #000 30%, transparent 95%);
+}
+.svc-paper {
+  background: #fff;
+  box-shadow:
+    0 1px 1px rgb(27 30 35 / 0.06),
+    0 2px 5px rgb(27 30 35 / 0.05),
+    0 16px 30px -16px rgb(27 30 35 / 0.3);
+}
+
+/* Three-state cycle (9s): each item owns one third; offset with negative delays. */
+.svc-third {
+  animation: svc-third 9s ease infinite both;
+}
+@keyframes svc-third {
+  0% { opacity: 0; translate: 0 4px; }
+  4%, 29% { opacity: 1; translate: 0 0; }
+  33%, 100% { opacity: 0; translate: 0 -4px; }
+}
+
+/* ---------- Graphic design: one ad, three formats ---------- */
+.svc-board {
+  width: 150px;
+  height: 150px;
+  animation: svc-resize 9s cubic-bezier(0.7, 0, 0.25, 1) infinite;
+}
+@keyframes svc-resize {
+  0%, 26% { width: 150px; height: 150px; }
+  33%, 59% { width: 104px; height: 178px; }
+  66%, 92% { width: 210px; height: 116px; }
+  100% { width: 150px; height: 150px; }
+}
+
+/* ---------- Illustration: sketch, then colour ---------- */
+.svc-art {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation:
+    svc-ink 8s cubic-bezier(0.6, 0, 0.3, 1) infinite both,
+    svc-paint 8s ease infinite both;
+}
+@keyframes svc-ink {
+  0% { stroke-dashoffset: 1; opacity: 1; }
+  30%, 88% { stroke-dashoffset: 0; opacity: 1; }
+  95%, 100% { stroke-dashoffset: 0; opacity: 0; }
+}
+@keyframes svc-paint {
+  0%, 36% { fill-opacity: 0; }
+  46%, 100% { fill-opacity: 1; }
+}
+.svc-sway {
+  transform-box: view-box;
+  transform-origin: 80px 98px;
+  animation: svc-sway 4s ease-in-out infinite;
+}
+@keyframes svc-sway {
+  0%, 100% { rotate: -2.5deg; }
+  50% { rotate: 2.5deg; }
+}
+.svc-tab-a { animation: svc-tab-a 8s ease infinite; }
+.svc-tab-b { animation: svc-tab-b 8s ease infinite; }
+@keyframes svc-tab-a {
+  0%, 36% { background: #1b1e23; color: #fff; }
+  42%, 94% { background: transparent; color: rgb(27 30 35 / 0.55); }
+  100% { background: #1b1e23; color: #fff; }
+}
+@keyframes svc-tab-b {
+  0%, 36% { background: transparent; color: rgb(27 30 35 / 0.55); }
+  42%, 94% { background: #1b1e23; color: #fff; }
+  100% { background: transparent; color: rgb(27 30 35 / 0.55); }
+}
+
+/* ---------- Visual identity: grid, mark, wordmark, palette ---------- */
+.svc-guide {
+  stroke-dasharray: 1;
+  animation: svc-guide 9s ease-in-out infinite;
+}
+@keyframes svc-guide {
+  0% { stroke-dashoffset: 1; opacity: 1; }
+  22% { stroke-dashoffset: 0; opacity: 1; }
+  40%, 90% { stroke-dashoffset: 0; opacity: 0.35; }
+  97%, 100% { stroke-dashoffset: 0; opacity: 0; }
+}
+.svc-pop {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: svc-pop 9s cubic-bezier(0.34, 1.56, 0.64, 1) infinite both;
+}
+@keyframes svc-pop {
+  0%, 24% { scale: 0; }
+  34%, 92% { scale: 1; }
+  98%, 100% { scale: 0; }
+}
+.svc-type {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  width: 9ch;
+  animation: svc-type 9s steps(9) infinite;
+}
+@keyframes svc-type {
+  0%, 38% { width: 0; }
+  54%, 92% { width: 9ch; }
+  96%, 100% { width: 0; }
+}
+.svc-slide {
+  animation: svc-slide 9s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-slide {
+  0%, 12% { opacity: 0; translate: 10px 0; }
+  20%, 92% { opacity: 1; translate: 0 0; }
+  97%, 100% { opacity: 0; translate: 0 0; }
+}
+
+/* ---------- Presentations ---------- */
+.svc-thumb {
+  animation: svc-thumb 9s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+@keyframes svc-thumb {
+  0%, 30% { translate: 0 0; }
+  33%, 63% { translate: 0 30px; }
+  66%, 96% { translate: 0 60px; }
+  100% { translate: 0 0; }
+}
+.svc-grow {
+  transform-origin: bottom;
+  animation: svc-grow 9s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-grow {
+  0% { scale: 1 0.05; }
+  12%, 30% { scale: 1 1; }
+  34%, 100% { scale: 1 0.05; }
+}
+
+/* ---------- Video ---------- */
+.svc-playhead {
+  animation: svc-playhead 6s linear infinite;
+}
+@keyframes svc-playhead {
+  from { left: 3%; }
+  to { left: 97%; }
+}
+.svc-rise {
+  animation: svc-rise 6s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-rise {
+  0% { opacity: 0; translate: 0 110%; }
+  8%, 78% { opacity: 1; translate: 0 0; }
+  86%, 100% { opacity: 0; translate: 0 -40%; }
+}
+.svc-enter {
+  animation: svc-enter 6s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-enter {
+  0% { opacity: 0; translate: 40px 0; rotate: 18deg; }
+  10%, 74% { opacity: 1; translate: 0 0; rotate: -8deg; }
+  84%, 100% { opacity: 0; translate: -10px 0; rotate: -8deg; }
+}
+
+.svc-bob {
+  animation: svc-bob 2s ease-in-out infinite;
+}
+@keyframes svc-bob {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -3px; }
+}
+.svc-shadow {
+  animation: svc-shadow 2s ease-in-out infinite;
+}
+@keyframes svc-shadow {
+  0%, 100% { scale: 1; opacity: 1; }
+  50% { scale: 0.82; opacity: 0.6; }
+}
+.svc-ring {
+  animation: svc-ring 3s ease-out infinite;
+}
+@keyframes svc-ring {
+  0% { scale: 0.55; opacity: 0.9; }
+  100% { scale: 1.45; opacity: 0; }
+}
+.svc-caption {
+  animation: svc-caption 6s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-caption {
+  0% { opacity: 0; translate: -8px 0; }
+  8%, 74% { opacity: 1; translate: 0 0; }
+  82%, 100% { opacity: 0; translate: 0 0; }
+}
+.svc-progress {
+  animation: svc-progress 6s linear infinite;
+}
+@keyframes svc-progress {
+  from { scale: 0.03 1; }
+  to { scale: 1 1; }
+}
+.svc-wave {
+  transform-origin: center;
+  animation: svc-wave 1.2s ease-in-out infinite;
+}
+@keyframes svc-wave {
+  0%, 100% { scale: 1 1; }
+  50% { scale: 1 0.45; }
+}
+.svc-rec {
+  animation: svc-rec 1.2s steps(2, jump-none) infinite;
+}
+@keyframes svc-rec {
+  0% { opacity: 1; }
+  100% { opacity: 0.25; }
+}
+.svc-vid-a { animation: svc-vid-a 6s ease infinite both; }
+.svc-vid-b { animation: svc-vid-b 6s ease infinite both; }
+@keyframes svc-vid-a {
+  0%, 84% { opacity: 1; }
+  88%, 98% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes svc-vid-b {
+  0%, 84% { opacity: 0; translate: 0 2px; }
+  88%, 98% { opacity: 1; translate: 0 0; }
+  100% { opacity: 0; }
+}
+
+/* ---------- Web & app: feedback, then the revision ---------- */
+.svc-phone {
+  animation: svc-phone 5s ease-in-out infinite;
+}
+@keyframes svc-phone {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -5px; }
+}
+.svc-leaves {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: svc-leaves 3.5s ease-in-out infinite;
+}
+@keyframes svc-leaves {
+  0%, 100% { rotate: -4deg; }
+  50% { rotate: 4deg; }
+}
+.svc-tile {
+  animation: svc-tile 9s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-tile {
+  0% { opacity: 0; translate: 0 8px; }
+  7%, 92% { opacity: 1; translate: 0 0; }
+  97%, 100% { opacity: 0; translate: 0 0; }
+}
+.svc-cursor {
+  animation: svc-cursor 9s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+@keyframes svc-cursor {
+  0% { translate: 70px 46px; scale: 1; }
+  18% { translate: 6px 4px; scale: 1; }
+  21% { translate: 6px 4px; scale: 0.82; }
+  24%, 58% { translate: 6px 4px; scale: 1; }
+  72%, 100% { translate: 70px 46px; scale: 1; }
+}
+.svc-pin {
+  animation: svc-pin 9s cubic-bezier(0.34, 1.56, 0.64, 1) infinite both;
+}
+@keyframes svc-pin {
+  0%, 21% { scale: 0; }
+  27%, 90% { scale: 1; }
+  95%, 100% { scale: 0; }
+}
+.svc-bubble {
+  transform-origin: top left;
+  animation: svc-bubble 9s cubic-bezier(0.22, 1, 0.36, 1) infinite both;
+}
+@keyframes svc-bubble {
+  0%, 25% { opacity: 0; translate: 0 6px; scale: 0.96; }
+  31%, 90% { opacity: 1; translate: 0 0; scale: 1; }
+  95%, 100% { opacity: 0; translate: 0 0; scale: 1; }
+}
+.svc-msg-a { animation: svc-msg-a 9s ease infinite both; }
+.svc-msg-b { animation: svc-msg-b 9s ease infinite both; }
+@keyframes svc-msg-a {
+  0%, 60% { opacity: 1; }
+  64%, 100% { opacity: 0; }
+}
+@keyframes svc-msg-b {
+  0%, 62% { opacity: 0; }
+  66%, 100% { opacity: 1; }
+}
+.svc-cta {
+  animation: svc-cta 9s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+@keyframes svc-cta {
+  0%, 52% { background: #fff; color: #1b1e23; box-shadow: inset 0 0 0 1px rgb(27 30 35 / 0.2); scale: 1; }
+  58%, 92% { background: #2563eb; color: #fff; box-shadow: 0 6px 14px -6px rgb(37 99 235 / 0.7); scale: 1.08; }
+  97%, 100% { background: #fff; color: #1b1e23; box-shadow: inset 0 0 0 1px rgb(27 30 35 / 0.2); scale: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .svc-stage,
+  .svc-stage * {
+    animation: none !important;
+  }
+  .svc-still-hidden {
+    opacity: 0;
+  }
+}

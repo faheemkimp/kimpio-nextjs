@@ -1,0 +1,1770 @@
+[
+ {
+  "id": 2267,
+  "count": 18,
+  "link": "https://www.kimp.io/category/alternatives/",
+  "name": "Alternatives",
+  "slug": "alternatives",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Alternatives Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/alternatives/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Alternatives Archives",
+   "og_url": "https://www.kimp.io/category/alternatives/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/alternatives/",
+      "url": "https://www.kimp.io/category/alternatives/",
+      "name": "Alternatives Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/alternatives/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/alternatives/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Alternatives"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 295,
+  "count": 239,
+  "link": "https://www.kimp.io/category/branding/",
+  "name": "Branding",
+  "slug": "branding",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Branding Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/branding/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Branding Archives",
+   "og_url": "https://www.kimp.io/category/branding/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/branding/",
+      "url": "https://www.kimp.io/category/branding/",
+      "name": "Branding Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/branding/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/branding/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Branding"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 279,
+  "count": 134,
+  "link": "https://www.kimp.io/category/content-marketing/",
+  "name": "Content Marketing",
+  "slug": "content-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Content Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/content-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Content Marketing Archives",
+   "og_url": "https://www.kimp.io/category/content-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/content-marketing/",
+      "url": "https://www.kimp.io/category/content-marketing/",
+      "name": "Content Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/content-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/content-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Content Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2160,
+  "count": 80,
+  "link": "https://www.kimp.io/category/digital-marketing/",
+  "name": "Digital Marketing",
+  "slug": "digital-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Digital Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/digital-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Digital Marketing Archives",
+   "og_url": "https://www.kimp.io/category/digital-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/digital-marketing/",
+      "url": "https://www.kimp.io/category/digital-marketing/",
+      "name": "Digital Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/digital-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/digital-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Digital Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2161,
+  "count": 19,
+  "link": "https://www.kimp.io/category/ecommerce-design/",
+  "name": "Ecommerce Design",
+  "slug": "ecommerce-design",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Ecommerce Design Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/ecommerce-design/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Ecommerce Design Archives",
+   "og_url": "https://www.kimp.io/category/ecommerce-design/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/ecommerce-design/",
+      "url": "https://www.kimp.io/category/ecommerce-design/",
+      "name": "Ecommerce Design Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/ecommerce-design/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/ecommerce-design/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ecommerce Design"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2162,
+  "count": 163,
+  "link": "https://www.kimp.io/category/graphic-design/",
+  "name": "Graphic Design",
+  "slug": "graphic-design",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Graphic Design Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/graphic-design/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Graphic Design Archives",
+   "og_url": "https://www.kimp.io/category/graphic-design/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/graphic-design/",
+      "url": "https://www.kimp.io/category/graphic-design/",
+      "name": "Graphic Design Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/graphic-design/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/graphic-design/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Graphic Design"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2217,
+  "count": 43,
+  "link": "https://www.kimp.io/category/kimp_360_product/",
+  "name": "Kimp 360 Product",
+  "slug": "kimp_360_product",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Kimp 360 Product Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/kimp_360_product/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Kimp 360 Product Archives",
+   "og_url": "https://www.kimp.io/category/kimp_360_product/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/kimp_360_product/",
+      "url": "https://www.kimp.io/category/kimp_360_product/",
+      "name": "Kimp 360 Product Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/kimp_360_product/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/kimp_360_product/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Kimp 360 Product"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 1592,
+  "count": 26,
+  "link": "https://www.kimp.io/category/kimp-updates/",
+  "name": "Kimp Updates",
+  "slug": "kimp-updates",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Kimp Updates Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/kimp-updates/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Kimp Updates Archives",
+   "og_url": "https://www.kimp.io/category/kimp-updates/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/kimp-updates/",
+      "url": "https://www.kimp.io/category/kimp-updates/",
+      "name": "Kimp Updates Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/kimp-updates/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/kimp-updates/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Kimp Updates"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2163,
+  "count": 12,
+  "link": "https://www.kimp.io/category/outdoor-advertising/",
+  "name": "Outdoor Advertising",
+  "slug": "outdoor-advertising",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Outdoor Advertising Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/outdoor-advertising/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Outdoor Advertising Archives",
+   "og_url": "https://www.kimp.io/category/outdoor-advertising/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/outdoor-advertising/",
+      "url": "https://www.kimp.io/category/outdoor-advertising/",
+      "name": "Outdoor Advertising Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/outdoor-advertising/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/outdoor-advertising/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Outdoor Advertising"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2164,
+  "count": 13,
+  "link": "https://www.kimp.io/category/product-marketing/",
+  "name": "Product Marketing",
+  "slug": "product-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Product Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/product-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Product Marketing Archives",
+   "og_url": "https://www.kimp.io/category/product-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/product-marketing/",
+      "url": "https://www.kimp.io/category/product-marketing/",
+      "name": "Product Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/product-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/product-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Product Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2165,
+  "count": 127,
+  "link": "https://www.kimp.io/category/small-business-marketing/",
+  "name": "Small Business Marketing",
+  "slug": "small-business-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Small Business Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/small-business-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Small Business Marketing Archives",
+   "og_url": "https://www.kimp.io/category/small-business-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/small-business-marketing/",
+      "url": "https://www.kimp.io/category/small-business-marketing/",
+      "name": "Small Business Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/small-business-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/small-business-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Small Business Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 1041,
+  "count": 185,
+  "link": "https://www.kimp.io/category/social-media/",
+  "name": "Social Media",
+  "slug": "social-media",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Social Media Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/social-media/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Social Media Archives",
+   "og_url": "https://www.kimp.io/category/social-media/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/social-media/",
+      "url": "https://www.kimp.io/category/social-media/",
+      "name": "Social Media Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/social-media/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/social-media/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Social Media"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2166,
+  "count": 97,
+  "link": "https://www.kimp.io/category/social-media-marketing/",
+  "name": "Social Media Marketing",
+  "slug": "social-media-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Social Media Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/social-media-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Social Media Marketing Archives",
+   "og_url": "https://www.kimp.io/category/social-media-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/social-media-marketing/",
+      "url": "https://www.kimp.io/category/social-media-marketing/",
+      "name": "Social Media Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/social-media-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/social-media-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Social Media Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2167,
+  "count": 133,
+  "link": "https://www.kimp.io/category/startup-marketing/",
+  "name": "Startup Marketing",
+  "slug": "startup-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Startup Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/startup-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Startup Marketing Archives",
+   "og_url": "https://www.kimp.io/category/startup-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/startup-marketing/",
+      "url": "https://www.kimp.io/category/startup-marketing/",
+      "name": "Startup Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/startup-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/startup-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Startup Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 1,
+  "count": 6,
+  "link": "https://www.kimp.io/category/uncategorized/",
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Uncategorized Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/uncategorized/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Uncategorized Archives",
+   "og_url": "https://www.kimp.io/category/uncategorized/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/uncategorized/",
+      "url": "https://www.kimp.io/category/uncategorized/",
+      "name": "Uncategorized Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/uncategorized/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/uncategorized/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uncategorized"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2096,
+  "count": 43,
+  "link": "https://www.kimp.io/category/video-marketing/",
+  "name": "Video Marketing",
+  "slug": "video-marketing",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Video Marketing Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/video-marketing/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Video Marketing Archives",
+   "og_url": "https://www.kimp.io/category/video-marketing/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/video-marketing/",
+      "url": "https://www.kimp.io/category/video-marketing/",
+      "name": "Video Marketing Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/video-marketing/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/video-marketing/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Video Marketing"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 2168,
+  "count": 21,
+  "link": "https://www.kimp.io/category/website-design/",
+  "name": "Website Design",
+  "slug": "website-design",
+  "parent": 0,
+  "yoast_head_json": {
+   "title": "Website Design Archives - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/category/website-design/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Website Design Archives",
+   "og_url": "https://www.kimp.io/category/website-design/",
+   "og_site_name": "Kimp",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://www.kimp.io/category/website-design/",
+      "url": "https://www.kimp.io/category/website-design/",
+      "name": "Website Design Archives - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/category/website-design/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/category/website-design/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Website Design"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ }
+]

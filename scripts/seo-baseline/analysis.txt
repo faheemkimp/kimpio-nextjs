@@ -1,0 +1,662 @@
+== HTML crawl: 312 URLs
+status: Counter({200: 308, 500: 4})
+  non-200/redirect: https://www.kimp.io/change-payment-method/ 500 None 
+  non-200/redirect: https://www.kimp.io/downgrade-upgrade-plan/ 500 None 
+  non-200/redirect: https://www.kimp.io/our-work-old/ 500 None 
+  non-200/redirect: https://www.kimp.io/upgrade-downgrade-plan/ 200 https://www.kimp.io/my-subscriptions/ 
+  non-200/redirect: https://www.kimp.io/upgrade-plans/ 500 None 
+
+== noindex pages in sitemap: 1
+   /my-account/ | noindex, follow
+
+== canonical != URL: 0
+missing canonical: ['/', '/2021-video-marketing-statistics/', '/2022-digital-marketing/', '/2022-pantone-color/', '/360-demo-booking/', '/360-onboarding/', '/4th-of-july-marketing/', '/about-us/', '/affiliate-area/', '/affiliate-creatives/', '/affiliates/', '/alejandro-rivas-micoud/', '/allcanvafaq-sitemap.xml', '/allcanvafaq/can-i-cancel-my-subscription-at-any-time-and-how-can-i-do-it/', '/allcanvafaq/can-i-edit-the-designs-kimp-creates-for-me-in-canva/', '/allcanvafaq/can-i-get-designs-created-for-multiple-brands-with-one-subscription/', '/allcanvafaq/can-i-invite-other-team-members-collaborators-to-make-manage-design-requests/', '/allcanvafaq/can-i-sign-up-with-a-canva-free-account/', '/allcanvafaq/how-are-kimps-canva-subscriptions-different-from-kimps-graphics-and-video-subscriptions/', '/allcanvafaq/how-do-i-make-my-design-requests/', '/allcanvafaq/how-does-the-billing-cycle-work-for-the-kimps-design-subscriptions/', '/allcanvafaq/how-many-designs-can-i-get-created-with-a-canva-graphics-or-canva-plus-subscription/', '/allcanvafaq/how-much-do-the-canva-graphics-and-canva-plus-subscriptions-cost/', '/allcanvafaq/is-there-a-free-trial/', '/allcanvafaq/what-can-i-get-designed-or-edited-with-a-canva-graphics-subscription/', '/allcanvafaq/what-can-i-get-designed-with-a-canva-plus-subscription/', '/allcanvafaq/what-happens-to-my-designs-if-i-cancel-my-subscription/', '/allcanvafaq/what-if-i-need-designs-created-in-photoshop-illustrator-indesign-figma-or-aftereffects-or-premiere-pro/', '/allcanvafaq/what-kind-of-customer-support-is-included-in-my-subscription/', '/allcanvafaq/what-will-be-the-turnaround-times-for-my-graphics-or-videos-in-canva/']
+
+== titles/descriptions
+missing title: ['/allcanvafaq-sitemap.xml', '/allvideoportfolio-category-sitemap.xml', '/author-sitemap.xml', '/casestudy-sitemap.xml', '/category-sitemap.xml', '/enterprise-case-sitemap.xml', '/page-sitemap.xml', '/post-sitemap.xml', '/post-sitemap2.xml', '/post_tag-sitemap.xml', '/video_portfolio-sitemap.xml']
+missing description: 260
+   no-desc: /360-demo-booking/
+   no-desc: /360-onboarding/
+   no-desc: /about-us/
+   no-desc: /affiliate-area/
+   no-desc: /affiliate-creatives/
+   no-desc: /affiliates/
+   no-desc: /allcanvafaq-sitemap.xml
+   no-desc: /allcanvafaq/can-i-cancel-my-subscription-at-any-time-and-how-can-i-do-it/
+   no-desc: /allcanvafaq/can-i-edit-the-designs-kimp-creates-for-me-in-canva/
+   no-desc: /allcanvafaq/can-i-get-designs-created-for-multiple-brands-with-one-subscription/
+   no-desc: /allcanvafaq/can-i-invite-other-team-members-collaborators-to-make-manage-design-requests/
+   no-desc: /allcanvafaq/can-i-sign-up-with-a-canva-free-account/
+   no-desc: /allcanvafaq/how-are-kimps-canva-subscriptions-different-from-kimps-graphics-and-video-subscriptions/
+   no-desc: /allcanvafaq/how-do-i-make-my-design-requests/
+   no-desc: /allcanvafaq/how-does-the-billing-cycle-work-for-the-kimps-design-subscriptions/
+   no-desc: /allcanvafaq/how-many-designs-can-i-get-created-with-a-canva-graphics-or-canva-plus-subscription/
+   no-desc: /allcanvafaq/how-much-do-the-canva-graphics-and-canva-plus-subscriptions-cost/
+   no-desc: /allcanvafaq/is-there-a-free-trial/
+   no-desc: /allcanvafaq/what-can-i-get-designed-or-edited-with-a-canva-graphics-subscription/
+   no-desc: /allcanvafaq/what-can-i-get-designed-with-a-canva-plus-subscription/
+   no-desc: /allcanvafaq/what-happens-to-my-designs-if-i-cancel-my-subscription/
+   no-desc: /allcanvafaq/what-if-i-need-designs-created-in-photoshop-illustrator-indesign-figma-or-aftereffects-or-premiere-pro/
+   no-desc: /allcanvafaq/what-kind-of-customer-support-is-included-in-my-subscription/
+   no-desc: /allcanvafaq/what-will-be-the-turnaround-times-for-my-graphics-or-videos-in-canva/
+   no-desc: /allcanvafaq/where-are-my-design-projects-managed/
+   no-desc: /allvideoportfolio-category-sitemap.xml
+   no-desc: /allvideoportfolio-category/animated-video-ads/
+   no-desc: /allvideoportfolio-category/instructional-videos/
+   no-desc: /allvideoportfolio-category/logo-animations/
+   no-desc: /allvideoportfolio-category/motion-gifs/
+   no-desc: /allvideoportfolio-category/promo-videos/
+   no-desc: /allvideoportfolio-category/reels/
+   no-desc: /allvideoportfolio-category/service-product-videos/
+   no-desc: /allvideoportfolio-category/simple-animated-designs/
+   no-desc: /allvideoportfolio-category/simple-gifs/
+   no-desc: /allvideoportfolio-category/social-media-ads/
+   no-desc: /allvideoportfolio-category/social-media-videos/
+   no-desc: /allvideoportfolio-category/talking-head-videos/
+   no-desc: /allvideoportfolio-category/video-editing/
+   no-desc: /author-sitemap.xml
+   no-desc: /author/abiramikimp-xyz/
+   no-desc: /author/ap1admin/
+   no-desc: /author/dcruz/
+   no-desc: /behind-the-scenes-how-ai-is-transforming-the-way-we-work-at-kimp/
+   no-desc: /black-friday-sale/
+   no-desc: /blog/
+   no-desc: /book-a-call/
+   no-desc: /book-onboarding-call/
+   no-desc: /brand-assets/
+   no-desc: /cancel-my-kimp-subscription/
+   no-desc: /canva-demo-call/
+   no-desc: /canva-designers/
+   no-desc: /careers/
+   no-desc: /careers/content-writer/
+   no-desc: /careers/graphic-designer/
+   no-desc: /careers/illustrator/
+   no-desc: /careers/motion-graphics-artist/
+   no-desc: /careers/project-manager/
+   no-desc: /case-study-patterns/
+   no-desc: /case-study/bdyc/
+   no-desc: /case-study/big-results/
+   no-desc: /case-study/garry-robinson/
+   no-desc: /case-study/how-igloo-met-all-of-its-design-requirements-with-a-single-subscription/
+   no-desc: /case-study/how-nomos-found-an-experienced-and-reliable-design-solution-with-kimp/
+   no-desc: /case-study/nava-wilson/
+   no-desc: /case-study/paragon-well-being/
+   no-desc: /case-study/rzone-fitness/
+   no-desc: /case-study/search-engine-wizards/
+   no-desc: /case-study/smile-fred/
+   no-desc: /case-study/social-vizion-media/
+   no-desc: /case-study/wgan/
+   no-desc: /casestudy-sitemap.xml
+   no-desc: /category-sitemap.xml
+   no-desc: /category/alternatives/
+   no-desc: /category/branding/
+   no-desc: /category/content-marketing/
+   no-desc: /category/digital-marketing/
+   no-desc: /category/ecommerce-design/
+   no-desc: /category/graphic-design/
+   no-desc: /category/kimp-updates/
+   no-desc: /category/kimp_360_product/
+   no-desc: /category/outdoor-advertising/
+   no-desc: /category/product-marketing/
+   no-desc: /category/small-business-marketing/
+   no-desc: /category/social-media-marketing/
+   no-desc: /category/social-media/
+   no-desc: /category/startup-marketing/
+   no-desc: /category/uncategorized/
+   no-desc: /category/video-marketing/
+   no-desc: /category/website-design/
+   no-desc: /compare-v1/
+   no-desc: /confirm-360-booking/
+   no-desc: /confirm-booking/
+   no-desc: /confirm-enterprise-subscription-plan/
+   no-desc: /confirm-subscription-plan/
+   no-desc: /confirm-subscription/
+   no-desc: /contact-us/
+   no-desc: /cookie-policy-eu/
+   no-desc: /customizing-alert-time/
+   no-desc: /design-categories/
+   no-desc: /edit-my-account/
+   no-desc: /enterprise-booking-confirmation/
+   no-desc: /enterprise-case-sitemap.xml
+   no-desc: /enterprise-case-studies/
+   no-desc: /enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/
+   no-desc: /enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/
+   no-desc: /enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/
+   no-desc: /enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/
+   no-desc: /enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/
+   no-desc: /enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/
+   no-desc: /enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/
+   no-desc: /enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/
+   no-desc: /enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/
+   no-desc: /enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/
+   no-desc: /enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/
+   no-desc: /enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/
+   no-desc: /enterprise-casestudies/
+   no-desc: /enterprise-choose-plan/
+   no-desc: /enterprise-clients/
+   no-desc: /enterprise-schedule-calendar/
+   no-desc: /enterprise-schedule-demo/
+   no-desc: /faq/
+   no-desc: /home-new/
+   no-desc: /initiate-cancel-subscription/
+   no-desc: /internet-marketing-deals/
+   no-desc: /kimp-stripe-subscriptions/
+   no-desc: /kimp360-platform/
+   no-desc: /kimp360-product-updates/
+   no-desc: /know-about-enterprise-solution/
+   no-desc: /llm-information-guidance/
+   no-desc: /manage-billing-address/
+   no-desc: /marketing/
+   no-desc: /my-account/
+   no-desc: /my-account/cancel-my-subscription/
+   no-desc: /my-cards/
+   no-desc: /my-dashboard/
+   no-desc: /my-questionnaire/
+   no-desc: /my-referrals/
+   no-desc: /my-subscription-offer/
+   no-desc: /my-subscriptions/
+   no-desc: /new-loom-integration-inside-requests/
+   no-desc: /our-work-old/video-samples-new/
+   no-desc: /our-work/
+   no-desc: /page-sitemap.xml
+   no-desc: /pause-my-subscription/
+   no-desc: /pause-subscription-confirm/
+   no-desc: /performance-upgrades-tech-stack-enhancements/
+   no-desc: /personalized-demo/
+   no-desc: /personalized-schedule/
+   no-desc: /post-sitemap.xml
+   no-desc: /post-sitemap2.xml
+   no-desc: /post_tag-sitemap.xml
+   no-desc: /privacy-policy/
+   no-desc: /referral/
+   no-desc: /register-now-old/
+   no-desc: /register-now/
+   no-desc: /resume-my-subscription/
+   no-desc: /retention-success/
+   no-desc: /salary-cost-calculator/
+   no-desc: /save-more-plans-legacy/
+   no-desc: /save-more-plans-us/
+   no-desc: /save-more-plans/
+   no-desc: /service-plans-upgrade/
+   no-desc: /service-plans/
+   no-desc: /small-business/
+   no-desc: /start-cancel-subscription/
+   no-desc: /startups/
+   no-desc: /subscription-detail-view/
+   no-desc: /tag/ai-design/
+   no-desc: /tag/ai-news/
+   no-desc: /tag/artificial-intelligence/
+   no-desc: /tag/black-friday-design/
+   no-desc: /tag/branding-design/
+   no-desc: /tag/branding-designs-branding-tips/
+   no-desc: /tag/branding-designs/
+   no-desc: /tag/branding-tips/
+   no-desc: /tag/canva-design/
+   no-desc: /tag/custom-illustrations/
+   no-desc: /tag/design-pickle-cost/
+   no-desc: /tag/design-pickle-pricing/
+   no-desc: /tag/design-subscription-pricing/
+   no-desc: /tag/design-tips/
+   no-desc: /tag/design-trends/
+   no-desc: /tag/dotyeti-alternatives/
+   no-desc: /tag/dotyeti-review/
+   no-desc: /tag/draftss-vs-kimp/
+   no-desc: /tag/email-design/
+   no-desc: /tag/entrepreneur-interview/
+   no-desc: /tag/event-marketing/
+   no-desc: /tag/facebook-design/
+   no-desc: /tag/grow-your-business/
+   no-desc: /tag/holiday-marketing/
+   no-desc: /tag/instagram-design/
+   no-desc: /tag/kapa99-alternatives/
+   no-desc: /tag/kapa99-review/
+   no-desc: /tag/landing-page-design/
+   no-desc: /tag/logo-design/
+   no-desc: /tag/manypixels-alternatives/
+   no-desc: /tag/manypixels-competitors/
+   no-desc: /tag/marketing-agency/
+   no-desc: /tag/marketing-design/
+   no-desc: /tag/marketing-designs/
+   no-desc: /tag/marketing-news/
+   no-desc: /tag/marketing-tips/
+   no-desc: /tag/marketing-trends/
+   no-desc: /tag/motion-graphics/
+   no-desc: /tag/nft-design/
+   no-desc: /tag/nonprofit-marketing/
+   no-desc: /tag/packaging-design/
+   no-desc: /tag/penji-alternatives/
+   no-desc: /tag/penji-competitors/
+   no-desc: /tag/penji-cost/
+   no-desc: /tag/penji-pricing/
+   no-desc: /tag/penji-review/
+   no-desc: /tag/penji-vs-design-pickle-unlimited-design-comparison/
+   no-desc: /tag/penji-vs-kimp/
+   no-desc: /tag/podcast-design/
+   no-desc: /tag/print-designs/
+   no-desc: /tag/pro-tip/
+   no-desc: /tag/productivity/
+   no-desc: /tag/real-estate-branding/
+   no-desc: /tag/seasonal-marketing/
+   no-desc: /tag/social-media-design/
+   no-desc: /tag/social-media-designs/
+   no-desc: /tag/social-media-marketing/
+   no-desc: /tag/social-media-news/
+   no-desc: /tag/social-media-trends/
+   no-desc: /tag/superside-alternatives/
+   no-desc: /tag/superside-cost/
+   no-desc: /tag/superside-pricing/
+   no-desc: /tag/ui-design-tips/
+   no-desc: /tag/unlimited-design-alternatives/
+   no-desc: /tag/unlimited-design-comparison/
+   no-desc: /tag/unlimited-design-services/
+   no-desc: /tag/unlimited-design-subscriptions/
+   no-desc: /tag/unlimited-design/
+   no-desc: /tag/update/
+   no-desc: /tag/video-design/
+   no-desc: /tag/video-editing/
+   no-desc: /tag/website-design/
+   no-desc: /tag/youtube-marketing/
+   no-desc: /terms-of-services/
+   no-desc: /upgrade-downgrade-plan/
+   no-desc: /video_portfolio-sitemap.xml
+   no-desc: /video_portfolio/animated-video-ads/
+   no-desc: /video_portfolio/instructional-videos/
+   no-desc: /video_portfolio/logo-animations/
+   no-desc: /video_portfolio/motion-gifs/
+   no-desc: /video_portfolio/promo-videos/
+   no-desc: /video_portfolio/reels/
+   no-desc: /video_portfolio/service-product-videos/
+   no-desc: /video_portfolio/simple-animated-designs/
+   no-desc: /video_portfolio/simple-gifs/
+   no-desc: /video_portfolio/social-media-ads/
+   no-desc: /video_portfolio/social-media-videos/
+   no-desc: /video_portfolio/talking-head-videos/
+   no-desc: /video_portfolio/video-editing/
+   no-desc: /vip-pause/
+   no-desc: /visa-plans/
+   no-desc: /yspace/
+duplicate titles:
+   '' ['/allcanvafaq-sitemap.xml', '/allvideoportfolio-category-sitemap.xml', '/author-sitemap.xml', '/casestudy-sitemap.xml', '/category-sitemap.xml', '/enterprise-case-sitemap.xml', '/page-sitemap.xml', '/post-sitemap.xml', '/post-sitemap2.xml', '/post_tag-sitemap.xml', '/video_portfolio-sitemap.xml']
+   'My Subscriptions - Kimp' ['/my-subscriptions/', '/upgrade-downgrade-plan/']
+duplicate descriptions:
+
+== H1
+h1 count distribution: Counter({0: 212, 1: 92, 918: 1, 25: 1, 30: 1, 4: 1})
+   h1x0 /360-demo-booking/ []
+   h1x0 /about-us/ []
+   h1x0 /affiliate-area/ []
+   h1x0 /affiliate-creatives/ []
+   h1x0 /affiliates/ []
+   h1x0 /allcanvafaq-sitemap.xml []
+   h1x0 /allcanvafaq/can-i-cancel-my-subscription-at-any-time-and-how-can-i-do-it/ []
+   h1x0 /allcanvafaq/can-i-edit-the-designs-kimp-creates-for-me-in-canva/ []
+   h1x0 /allcanvafaq/can-i-get-designs-created-for-multiple-brands-with-one-subscription/ []
+   h1x0 /allcanvafaq/can-i-invite-other-team-members-collaborators-to-make-manage-design-requests/ []
+   h1x0 /allcanvafaq/can-i-sign-up-with-a-canva-free-account/ []
+   h1x0 /allcanvafaq/how-are-kimps-canva-subscriptions-different-from-kimps-graphics-and-video-subscriptions/ []
+   h1x0 /allcanvafaq/how-do-i-make-my-design-requests/ []
+   h1x0 /allcanvafaq/how-does-the-billing-cycle-work-for-the-kimps-design-subscriptions/ []
+   h1x0 /allcanvafaq/how-many-designs-can-i-get-created-with-a-canva-graphics-or-canva-plus-subscription/ []
+   h1x0 /allcanvafaq/how-much-do-the-canva-graphics-and-canva-plus-subscriptions-cost/ []
+   h1x0 /allcanvafaq/is-there-a-free-trial/ []
+   h1x0 /allcanvafaq/what-can-i-get-designed-or-edited-with-a-canva-graphics-subscription/ []
+   h1x0 /allcanvafaq/what-can-i-get-designed-with-a-canva-plus-subscription/ []
+   h1x0 /allcanvafaq/what-happens-to-my-designs-if-i-cancel-my-subscription/ []
+   h1x0 /allcanvafaq/what-if-i-need-designs-created-in-photoshop-illustrator-indesign-figma-or-aftereffects-or-premiere-pro/ []
+   h1x0 /allcanvafaq/what-kind-of-customer-support-is-included-in-my-subscription/ []
+   h1x0 /allcanvafaq/what-will-be-the-turnaround-times-for-my-graphics-or-videos-in-canva/ []
+   h1x0 /allcanvafaq/where-are-my-design-projects-managed/ []
+   h1x0 /allvideoportfolio-category-sitemap.xml []
+   h1x0 /author-sitemap.xml []
+   h1x918 /author/abiramikimp-xyz/ ['KIMP’s Picks October 30th: Weekly Highlights In Design, Marketing, AI, & More', 'KIMP’s Picks October 23rd: Weekly Highlights In Design, Marketing, AI, & More', 'How to Choose the Right Design Types for Your Business']
+   h1x25 /author/ap1admin/ ['Logo Design Tips: The Key to Creating a Memorable Brand Identity', '2022 Social Media Trends: 8 High-Impact Ideas For Your Brand', '8 Clickable Instagram Story Ideas For Your Fitness Brand']
+   h1x30 /author/dcruz/ ['Coming Soon: KIMP360 in Your AI Assistant', 'New Image Commenting Tool: Classic vs. New', 'KIMP360 Platform Update – UI Modernization & System Enhancements']
+   h1x0 /blog/ []
+   h1x0 /book-a-call/ []
+   h1x0 /book-onboarding-call/ []
+   h1x0 /brand-assets/ []
+   h1x0 /cancel-my-kimp-subscription/ []
+   h1x0 /canva-demo-call/ []
+   h1x0 /canva-designers/ []
+   h1x0 /careers/ []
+   h1x0 /case-study-patterns/ []
+   h1x0 /case-study/ []
+   h1x0 /case-study/bdyc/ []
+   h1x0 /case-study/big-results/ []
+   h1x0 /case-study/garry-robinson/ []
+   h1x0 /case-study/how-igloo-met-all-of-its-design-requirements-with-a-single-subscription/ []
+   h1x0 /case-study/how-nomos-found-an-experienced-and-reliable-design-solution-with-kimp/ []
+   h1x0 /case-study/nava-wilson/ []
+   h1x0 /case-study/paragon-well-being/ []
+   h1x0 /case-study/rzone-fitness/ []
+   h1x0 /case-study/search-engine-wizards/ []
+   h1x0 /case-study/smile-fred/ []
+   h1x0 /case-study/social-vizion-media/ []
+   h1x0 /case-study/wgan/ []
+   h1x0 /casestudy-sitemap.xml []
+   h1x0 /category-sitemap.xml []
+   h1x0 /category/alternatives/ []
+   h1x0 /category/branding/ []
+   h1x0 /category/content-marketing/ []
+   h1x0 /category/digital-marketing/ []
+   h1x0 /category/ecommerce-design/ []
+   h1x0 /category/graphic-design/ []
+   h1x0 /category/kimp-updates/ []
+   h1x0 /category/kimp_360_product/ []
+   h1x0 /category/outdoor-advertising/ []
+   h1x0 /category/product-marketing/ []
+   h1x0 /category/small-business-marketing/ []
+   h1x0 /category/social-media-marketing/ []
+   h1x0 /category/social-media/ []
+   h1x0 /category/startup-marketing/ []
+   h1x0 /category/uncategorized/ []
+   h1x0 /category/video-marketing/ []
+   h1x0 /category/website-design/ []
+   h1x0 /confirm-enterprise-subscription-plan/ []
+   h1x0 /confirm-subscription-plan/ []
+   h1x0 /confirm-subscription/ []
+   h1x0 /contact-us/ []
+   h1x0 /design-categories/ []
+   h1x0 /edit-my-account/ []
+   h1x0 /enterprise-case-sitemap.xml []
+   h1x0 /enterprise-choose-plan/ []
+   h1x0 /enterprise-schedule-calendar/ []
+   h1x0 /enterprise-schedule-demo/ []
+   h1x0 /entrepreneurs/ []
+   h1x0 /faq/ []
+   h1x0 /fitness-health-brands/ []
+   h1x0 /graphic-design-services/ []
+   h1x0 /initiate-cancel-subscription/ []
+   h1x4 /internet-marketing-deals/ ['Unlimited Graphic Design. One Flat Monthly Fee. 40% OFF the first month', 'Kimp Perks', 'What Our Clients Have To Say']
+   h1x0 /kimp-stripe-subscriptions/ []
+   h1x0 /kimp360-platform/ []
+   h1x0 /kimp360-product-updates/ []
+   h1x0 /know-about-enterprise-solution/ []
+   h1x0 /manage-billing-address/ []
+   h1x0 /my-account/ []
+   h1x0 /my-account/cancel-my-subscription/ []
+   h1x0 /my-cards/ []
+   h1x0 /my-questionnaire/ []
+   h1x0 /my-referrals/ []
+   h1x0 /my-subscription-offer/ []
+   h1x0 /my-subscriptions/ []
+   h1x0 /our-work-old/video-samples-new/ []
+   h1x0 /our-work/video-samples/ []
+   h1x0 /page-sitemap.xml []
+   h1x0 /pause-my-subscription/ []
+   h1x0 /pause-subscription-confirm/ []
+   h1x0 /personalized-demo/ []
+   h1x0 /personalized-schedule/ []
+   h1x0 /post-sitemap.xml []
+   h1x0 /post-sitemap2.xml []
+   h1x0 /post_tag-sitemap.xml []
+   h1x0 /pricing/ []
+   h1x0 /professional-services/ []
+   h1x0 /register-now-old/ []
+   h1x0 /register-now/ []
+   h1x0 /resume-my-subscription/ []
+   h1x0 /retention-success/ []
+   h1x0 /reviews/ []
+   h1x0 /salary-cost-calculator/ []
+   h1x0 /save-more-plans-legacy/ []
+   h1x0 /save-more-plans-us/ []
+   h1x0 /save-more-plans/ []
+   h1x0 /service-plans-upgrade/ []
+   h1x0 /service-plans/ []
+   h1x0 /start-cancel-subscription/ []
+   h1x0 /subscription-detail-view/ []
+   h1x0 /tag/ai-design/ []
+   h1x0 /tag/ai-news/ []
+   h1x0 /tag/artificial-intelligence/ []
+   h1x0 /tag/black-friday-design/ []
+   h1x0 /tag/branding-design/ []
+   h1x0 /tag/branding-designs-branding-tips/ []
+   h1x0 /tag/branding-designs/ []
+   h1x0 /tag/branding-tips/ []
+   h1x0 /tag/canva-design/ []
+   h1x0 /tag/custom-illustrations/ []
+   h1x0 /tag/design-pickle-cost/ []
+   h1x0 /tag/design-pickle-pricing/ []
+   h1x0 /tag/design-subscription-pricing/ []
+   h1x0 /tag/design-tips/ []
+   h1x0 /tag/design-trends/ []
+   h1x0 /tag/dotyeti-alternatives/ []
+   h1x0 /tag/dotyeti-review/ []
+   h1x0 /tag/draftss-vs-kimp/ []
+   h1x0 /tag/email-design/ []
+   h1x0 /tag/entrepreneur-interview/ []
+   h1x0 /tag/event-marketing/ []
+   h1x0 /tag/facebook-design/ []
+   h1x0 /tag/grow-your-business/ []
+   h1x0 /tag/holiday-marketing/ []
+   h1x0 /tag/instagram-design/ []
+   h1x0 /tag/kapa99-alternatives/ []
+   h1x0 /tag/kapa99-review/ []
+   h1x0 /tag/landing-page-design/ []
+   h1x0 /tag/logo-design/ []
+   h1x0 /tag/manypixels-alternatives/ []
+   h1x0 /tag/manypixels-competitors/ []
+   h1x0 /tag/marketing-agency/ []
+   h1x0 /tag/marketing-design/ []
+   h1x0 /tag/marketing-designs/ []
+   h1x0 /tag/marketing-news/ []
+   h1x0 /tag/marketing-tips/ []
+   h1x0 /tag/marketing-trends/ []
+   h1x0 /tag/motion-graphics/ []
+   h1x0 /tag/nft-design/ []
+   h1x0 /tag/nonprofit-marketing/ []
+   h1x0 /tag/packaging-design/ []
+   h1x0 /tag/penji-alternatives/ []
+   h1x0 /tag/penji-competitors/ []
+   h1x0 /tag/penji-cost/ []
+   h1x0 /tag/penji-pricing/ []
+   h1x0 /tag/penji-review/ []
+   h1x0 /tag/penji-vs-design-pickle-unlimited-design-comparison/ []
+   h1x0 /tag/penji-vs-kimp/ []
+   h1x0 /tag/podcast-design/ []
+   h1x0 /tag/print-designs/ []
+   h1x0 /tag/pro-tip/ []
+   h1x0 /tag/productivity/ []
+   h1x0 /tag/real-estate-branding/ []
+   h1x0 /tag/seasonal-marketing/ []
+   h1x0 /tag/social-media-design/ []
+   h1x0 /tag/social-media-designs/ []
+   h1x0 /tag/social-media-marketing/ []
+   h1x0 /tag/social-media-news/ []
+   h1x0 /tag/social-media-trends/ []
+   h1x0 /tag/superside-alternatives/ []
+   h1x0 /tag/superside-cost/ []
+   h1x0 /tag/superside-pricing/ []
+   h1x0 /tag/ui-design-tips/ []
+   h1x0 /tag/unlimited-design-alternatives/ []
+   h1x0 /tag/unlimited-design-comparison/ []
+   h1x0 /tag/unlimited-design-services/ []
+   h1x0 /tag/unlimited-design-subscriptions/ []
+   h1x0 /tag/unlimited-design/ []
+   h1x0 /tag/update/ []
+   h1x0 /tag/video-design/ []
+   h1x0 /tag/video-editing/ []
+   h1x0 /tag/website-design/ []
+   h1x0 /tag/youtube-marketing/ []
+   h1x0 /upgrade-downgrade-plan/ []
+   h1x0 /video-design-services/ []
+   h1x0 /video_portfolio-sitemap.xml []
+   h1x0 /video_portfolio/animated-video-ads/ []
+   h1x0 /video_portfolio/instructional-videos/ []
+   h1x0 /video_portfolio/logo-animations/ []
+   h1x0 /video_portfolio/motion-gifs/ []
+   h1x0 /video_portfolio/promo-videos/ []
+   h1x0 /video_portfolio/reels/ []
+   h1x0 /video_portfolio/service-product-videos/ []
+   h1x0 /video_portfolio/simple-animated-designs/ []
+   h1x0 /video_portfolio/simple-gifs/ []
+   h1x0 /video_portfolio/social-media-ads/ []
+   h1x0 /video_portfolio/social-media-videos/ []
+   h1x0 /video_portfolio/talking-head-videos/ []
+   h1x0 /video_portfolio/video-editing/ []
+   h1x0 /vip-pause/ []
+   h1x0 /visa-plans/ []
+   h1x0 /white-label-graphic-design/ []
+   h1x0 /yspace/ []
+
+== schema types: [('BreadcrumbList', 5), ('EntryPoint', 5), ('ImageObject', 5), ('ListItem', 5), ('Organization', 5), ('PropertyValueSpecification', 5), ('SearchAction', 5), ('WebSite', 5), ('Person', 3), ('ProfilePage', 3), ('ReadAction', 3), ('CollectionPage', 2), ('WebPage', 1)]
+== trackers: [('ga4', 303), ('gtm', 297), ('hubspot', 6), ('facebook', 1), ('intercom', 1)]
+== og:image missing: 14
+== twitter card values: Counter({'summary_large_image': 297, None: 11})
+== verification metas: Counter({'{}': 237, '{"google-site-verification": "feAl1hPD-VEmi0OtnJHhF1LcW8y7ppSIGrSlKljjIIY"}': 71})
+== hreflang present: 0
+== images: 12123, missing alt: 5271 (43%)
+== avg HTML bytes: 167672
+
+== WP REST: posts 1357 pages 140
+post robots: Counter({'"index"': 1356, '"noindex"': 1})
+posts canonical != link: []
+post titles dup: []
+post desc missing: 48
+post schema types: [('Article', 1357), ('ImageObject', 1357), ('BreadcrumbList', 1357), ('WebSite', 1357), ('Organization', 1357), ('Person', 1357), ('WebPage', 1262), ('Question', 369), ('WebPage/FAQPage', 95)]
+post slugs with non-ascii/upper: []
+post link paths not /slug/: []
+
+== WP pages not in sitemap (status/robots/template):
+   /annual-visa/ | noindex | page-templates/template-visa.php
+   /book-a-call-introductory/ | noindex | page-templates/template-book_a_call_intro.php
+   /cart/ | noindex | 
+   /check-run-automations/ | index | page-templates/template-automations.php
+   /checkout/ | index | page-templates/template-trial-checkout.php
+   /confirm-email/ | index | page-templates/template-confirm-checkout.php
+   /confirm-subscription-cancellation/ | index | page-templates/template-confirm-subscription-cancel.php
+   /confirm-trello/ | index | page-templates/template-confirm-checkout.php
+   /crisp-todos/ | noindex | page-templates/template-blank.php
+   /customer-search/ | noindex | page-templates/template-customers.php
+   /customer-sources/ | noindex | page-templates/template-customer-source.php
+   /enterprise-registration/ | noindex | page-templates/template-enterprise-register-new.php
+   /escalate/ | noindex | page-templates/template-blank.php
+   /hyov-product-support/ | noindex | 
+   /invoice-download/ | noindex | page-templates/templete-invoice.php
+   /kimp-api/ | noindex | 
+   /my-account-old/ | noindex | 
+   /my-account-old/cancel-subscription/ | noindex | 
+   /my-account-old/edit-profile/ | noindex | 
+   /my-account/cancel-subscription/ | noindex | page-templates/template-cancel-subscription.php
+   /my-account/member-contact/ | noindex | page-templates/template-account-contact.php
+   /my-account/pause-subscription/ | noindex | page-templates/template-pause-subscription.php
+   /my-account/resume-subscription/ | noindex | page-templates/template-resume-subscription.php
+   /new-clients/ | noindex | page-templates/template-newclient.php
+   /our-work-old-2/ | noindex | page-templates/template-our-portfolio-new.php
+   /questionnaire/ | index | page-templates/template-questionnaire.php
+   /realestate/ | index | page-templates/template-landing.php
+   /reset-password/ | noindex | 
+   /save-more/ | noindex | page-templates/template-save-more.php
+   /shop/ | noindex | 
+   /source/ | noindex | 
+   /submit-questionnaire/ | index | page-templates/template-Questionnaire-hidden.php
+   /subscription-cancelled/ | noindex | page-templates/template-subscription-canceled.php
+   /team-holidays/ | noindex | page-templates/template-team-holidays.php
+   /upgrade-interval-renewed/ | noindex | page-templates/template-upgrade-renewed.php
+   /upgrade-interval/ | noindex | page-templates/template-upgrade.php
+   /upgrading/ | noindex | page-templates/template-woo-upgrading.php
+   /v1/ | noindex | page-templates/template-front.php
+   /v2/ | noindex | page-templates/template-front.php
+   /v3/ | noindex | page-templates/template-front24.php
+   /view-my-subscription/ | noindex | 
+
+== Page templates in use (sitemap pages):
+   / | page-templates/template-front.php
+   /360-demo-booking/ | page-templates/template-book_a_call_360.php
+   /360-onboarding/ | page-templates/template-onboarding.php
+   /about-us/ | page-templates/template-about_us.php
+   /affiliate-area/ | page-templates/template-affliate_login.php
+   /affiliate-creatives/ | default
+   /affiliates/ | page-templates/template-affnew.php
+   /black-friday-sale/ | page-templates/template-black-friday.php
+   /blog/ | default
+   /book-a-call/ | page-templates/template-book_a_call.php
+   /book-onboarding-call/ | page-templates/template-book_onboarding.php
+   /brand-assets/ | page-templates/template-presskit.php
+   /cancel-my-kimp-subscription/ | page-templates/template-cancel-my-subscription-form.php
+   /canva-demo-call/ | page-templates/template-book_a_call_canva.php
+   /canva-designers/ | page-templates/template-canva.php
+   /careers/ | page-templates/template-career_landing.php
+   /careers/content-writer/ | page-templates/template-career_cw_details.php
+   /careers/graphic-designer/ | page-templates/template-career_details.php
+   /careers/illustrator/ | page-templates/template-illustrator_details.php
+   /careers/motion-graphics-artist/ | page-templates/template-career_mgd_details.php
+   /careers/project-manager/ | page-templates/template-career_pm_details.php
+   /case-study-patterns/ | default
+   /change-payment-method/ | page-templates/template-change-payment.php
+   /compare-service/ | page-templates/template-compare.php
+   /compare-v1/ | page-templates/template-compare-v2.php
+   /confirm-360-booking/ | page-templates/template-confirm-booking-360.php
+   /confirm-booking/ | page-templates/template-confirm-booking.php
+   /confirm-enterprise-subscription-plan/ | page-templates/template-enterprise-stripe-checkout.php
+   /confirm-subscription-plan/ | page-templates/template-stripe-checkout.php
+   /confirm-subscription/ | page-templates/template-confirm-checkout.php
+   /contact-us/ | page-templates/template-contact.php
+   /cookie-policy-eu/ | page-templates/template-common.php
+   /design-categories/ | page-templates/template-design_category.php
+   /downgrade-upgrade-plan/ | page-templates/template-upgrade-degrade-plan.php
+   /edit-my-account/ | page-templates/templete-edit-my-account.php
+   /enterprise-booking-confirmation/ | page-templates/template-enterprise-confirm-booking.php
+   /enterprise-case-studies/ | page-templates/template-casestudy-new-page.php
+   /enterprise-casestudies/ | page-templates/template-enterprise-casestudy-list.php
+   /enterprise-choose-plan/ | page-templates/template-enterprise-choose-plan.php
+   /enterprise-clients/ | page-templates/template-enterprise-new.php
+   /enterprise-schedule-calendar/ | page-templates/template-enterprise-personalized-shedule.php
+   /enterprise-schedule-demo/ | page-templates/template-enterprise-personalized-demo.php
+   /entrepreneurs/ | page-templates/template-entrepreneurs.php
+   /faq/ | page-templates/template-faq_new.php
+   /fitness-health-brands/ | page-templates/template-fitnessbrand.php
+   /graphic-design-services/ | page-templates/template-graphics.php
+   /home-new/ | page-templates/template-front-new.php
+   /initiate-cancel-subscription/ | page-templates/template-initiate-cancelation.php
+   /internet-marketing-deals/ | page-templates/template-offers.php
+   /kimp-stripe-subscriptions/ | page-templates/template-kimp-stripe-subscription.php
+   /kimp360-platform/ | page-templates/template-kimp360product.php
+   /kimp360-product-updates/ | page-templates/template-kimp360blogs.php
+   /know-about-enterprise-solution/ | page-templates/template-book_a_call_enterprise.php
+   /llm-information-guidance/ | page-templates/template-common.php
+   /manage-billing-address/ | page-templates/template-manage-billing.php
+   /marketing/ | page-templates/template-marketing.php
+   /my-account/ | page-templates/template-woo-myaccount.php
+   /my-account/cancel-my-subscription/ | page-templates/template-cancel-initiate-subscription.php
+   /my-cards/ | page-templates/template-my-cards.php
+   /my-dashboard/ | page-templates/template-my-dashboard.php
+   /my-questionnaire/ | page-templates/template-my-questionnaire.php
+   /my-referrals/ | page-templates/template-my-referrals.php
+   /my-subscription-offer/ | page-templates/template-subscription-offer.php
+   /my-subscriptions/ | page-templates/template-my-subscriptions.php
+   /our-work-old/ | page-templates/template-our-portfolio.php
+   /our-work-old/video-samples-new/ | page-templates/template-video-portfolio-new.php
+   /our-work/ | page-templates/template-our-portfolio-new-design.php
+   /our-work/video-samples/ | page-templates/template-video-portfolio.php
+   /pause-my-subscription/ | page-templates/template-pause-my-subscription.php
+   /pause-subscription-confirm/ | page-templates/pause-subscription-confirm.php
+   /personalized-demo/ | page-templates/template-personalized-demo.php
+   /personalized-schedule/ | page-templates/template-personalized-shedule.php
+   /pricing/ | page-templates/template-pricing.php
+   /privacy-policy/ | page-templates/template-common.php
+   /professional-services/ | page-templates/template-professional-services.php
+   /referral/ | page-templates/template-front.php
+   /register-now-old/ | page-templates/template-register.php
+   /register-now/ | page-templates/template-register-new.php
+   /resume-my-subscription/ | page-templates/template-resume-my-subscription.php
+   /retention-success/ | page-templates/template-retention-success.php
+   /reviews/ | page-templates/template-testimonital.php
+   /salary-cost-calculator/ | page-templates/template-cost-calculator.php
+   /save-more-plans-legacy/ | page-templates/template-save-more-plan-legacy.php
+   /save-more-plans-us/ | page-templates/template-save-more-plans-us.php
+   /save-more-plans/ | page-templates/template-save-more-plan.php
+   /service-plans-upgrade/ | page-templates/template-chooseplan-upgrade.php
+   /service-plans/ | page-templates/template-chooseplan.php
+   /small-business/ | page-templates/template-small_business.php
+   /start-cancel-subscription/ | page-templates/template-start-cancel-subscription.php
+   /startups/ | page-templates/template-startup.php
+   /subscription-detail-view/ | page-templates/template-subscription-detail-view.php
+   /terms-of-services/ | page-templates/template-common.php
+   /upgrade-downgrade-plan/ | page-templates/template-upgrade-downgrade.php
+   /upgrade-plans/ | page-templates/template-upgrade-plans.php
+   /video-design-services/ | page-templates/template-video.php
+   /vip-pause/ | page-templates/template-vip-pause.php
+   /visa-plans/ | page-templates/template-visa-plan.php
+   /white-label-graphic-design/ | page-templates/template-agency.php
+   /yspace/ | page-templates/template-landing.php

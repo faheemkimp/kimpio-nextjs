@@ -1,0 +1,1730 @@
+[
+ {
+  "id": 139438,
+  "modified": "2025-08-07T03:04:33",
+  "slug": "how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/",
+  "title": {
+   "rendered": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP",
+   "og_description": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP Some of our work for Emerald",
+   "og_url": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:04:33+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/emerald-banner.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/",
+      "name": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/emerald-banner-1024x507.webp",
+      "datePublished": "2025-08-07T06:54:12+00:00",
+      "dateModified": "2025-08-07T07:04:33+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/emerald-banner.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/emerald-banner.webp",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-emerald-reduces-creative-overhead-while-increasing-output-with-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Emerald Reduces Creative Overhead While Increasing Output With KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139430,
+  "modified": "2025-08-07T03:04:34",
+  "slug": "how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/",
+  "title": {
+   "rendered": "How Valynt Digital Expands Their Brand Presence With Fast, Flexible Design Support From KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How Valynt Digital Expands Their Brand Presence With Fast, Flexible Design Support From KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Valynt Digital Expands Their Brand Presence With Fast, Flexible Design Support From KIMP",
+   "og_description": "How Nomos Found An Experienced and Reliable Design Solution With KIMP Some of our work for Valynt Digitals",
+   "og_url": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:04:34+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/valynt-banner.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/",
+      "name": "How Valynt Digital Expands Their Brand Presence With Fast, Flexible Design Support From KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/valynt-banner-1024x507.webp",
+      "datePublished": "2025-08-07T06:38:46+00:00",
+      "dateModified": "2025-08-07T07:04:34+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/valynt-banner.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/valynt-banner.webp",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-valynt-digital-expands-their-brand-presence-with-fast-flexible-design-support-from-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Valynt Digital Expands Their Brand Presence With Fast, Flexible Design Support From KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139422,
+  "modified": "2025-08-07T03:04:31",
+  "slug": "how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/",
+  "title": {
+   "rendered": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP",
+   "og_description": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP Some of our work for Tokio Marine Insurance Group",
+   "og_url": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:04:31+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/tokio-banner.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/",
+      "name": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/tokio-banner-1024x507.webp",
+      "datePublished": "2025-08-07T06:22:23+00:00",
+      "dateModified": "2025-08-07T07:04:31+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/tokio-banner.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/tokio-banner.webp",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-tokio-marine-insurance-group-supports-multi-channel-marketing-efforts-through-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Tokio Marine Insurance Group Supports Multi-Channel Marketing Efforts Through KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139399,
+  "modified": "2025-08-07T03:04:17",
+  "slug": "how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency",
+  "link": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/",
+  "title": {
+   "rendered": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency"
+  },
+  "yoast_head_json": {
+   "title": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency",
+   "og_description": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency Some of our work for Global Access",
+   "og_url": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:04:17+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/globalaccess-banner.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/",
+      "url": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/",
+      "name": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/globalaccess-banner-1024x507.webp",
+      "datePublished": "2025-08-07T05:52:13+00:00",
+      "dateModified": "2025-08-07T07:04:17+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/globalaccess-banner.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/globalaccess-banner.webp",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-global-access-uses-kimp-to-eliminate-bottlenecks-and-drive-visual-consistency/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Global Access Uses KIMP to Eliminate Bottlenecks and Drive Visual Consistency"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139385,
+  "modified": "2025-08-14T01:06:49",
+  "slug": "how-sealedair-meets-diverse-design-demands-with-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/",
+  "title": {
+   "rendered": "How SealedAir Meets Diverse Design Demands With KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How SealedAir Meets Diverse Design Demands With KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How SealedAir Meets Diverse Design Demands With KIMP",
+   "og_description": "How SealedAir Meets Diverse Design Demands With KIMP Some of our work for Sealed Air",
+   "og_url": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-14T05:06:49+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/sealed-banner.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/",
+      "name": "How SealedAir Meets Diverse Design Demands With KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/sealed-banner-1024x507.webp",
+      "datePublished": "2025-08-06T13:23:27+00:00",
+      "dateModified": "2025-08-14T05:06:49+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/sealed-banner.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/sealed-banner.webp",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-sealedair-meets-diverse-design-demands-with-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How SealedAir Meets Diverse Design Demands With KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139376,
+  "modified": "2025-08-27T08:02:12",
+  "slug": "how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/",
+  "title": {
+   "rendered": "How Megabus Meets Tight Deadlines and High Expectations With KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How Megabus Meets Tight Deadlines and High Expectations With KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Megabus Meets Tight Deadlines and High Expectations With KIMP",
+   "og_description": "How Megabus Meets Tight Deadlines and High Expectations With KIMP Some of our work for Nomos Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-27T12:02:12+00:00",
+   "og_image": [
+    {
+     "width": 1320,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/megabus-cover.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/",
+      "name": "How Megabus Meets Tight Deadlines and High Expectations With KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/megabus-cover.png",
+      "datePublished": "2025-08-06T13:11:21+00:00",
+      "dateModified": "2025-08-27T12:02:12+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/megabus-cover.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/megabus-cover.png",
+      "width": 1320,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-megabus-meets-tight-deadlines-and-high-expectations-with-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Megabus Meets Tight Deadlines and High Expectations With KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139338,
+  "modified": "2025-08-07T03:02:48",
+  "slug": "how-jdr-group-scales-creative-production-seamlessly-with-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/",
+  "title": {
+   "rendered": "How JDR Group Scales Creative Production Seamlessly With KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How JDR Group Scales Creative Production Seamlessly With KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How JDR Group Scales Creative Production Seamlessly With KIMP",
+   "og_description": "How JDR Group Scales Creative Production Seamlessly With KIMP Some of our work for Nomos Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:02:48+00:00",
+   "og_image": [
+    {
+     "width": 658,
+     "height": 326,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/jdrBanner.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/",
+      "name": "How JDR Group Scales Creative Production Seamlessly With KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/jdrBanner.png",
+      "datePublished": "2025-08-06T11:15:59+00:00",
+      "dateModified": "2025-08-07T07:02:48+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/jdrBanner.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/jdrBanner.png",
+      "width": 658,
+      "height": 326
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-jdr-group-scales-creative-production-seamlessly-with-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How JDR Group Scales Creative Production Seamlessly With KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139322,
+  "modified": "2025-08-07T03:01:15",
+  "slug": "how-igloo-meets-diverse-design-demands-with-kimp",
+  "link": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/",
+  "title": {
+   "rendered": "How Igloo Meets Diverse Design Demands With KIMP"
+  },
+  "yoast_head_json": {
+   "title": "How Igloo Meets Diverse Design Demands With KIMP - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Igloo Meets Diverse Design Demands With KIMP",
+   "og_description": "How Igloo Meets Diverse Design Demands With KIMP Some of our work for Igloo Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:01:15+00:00",
+   "og_image": [
+    {
+     "width": 1316,
+     "height": 652,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/iglooBanner.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/",
+      "url": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/",
+      "name": "How Igloo Meets Diverse Design Demands With KIMP - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/iglooBanner-1024x507.png",
+      "datePublished": "2025-08-06T10:44:31+00:00",
+      "dateModified": "2025-08-07T07:01:15+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/iglooBanner.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/iglooBanner.png",
+      "width": 1316,
+      "height": 652
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-igloo-meets-diverse-design-demands-with-kimp/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Igloo Meets Diverse Design Demands With KIMP"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139306,
+  "modified": "2025-08-07T03:01:12",
+  "slug": "how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team",
+  "link": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/",
+  "title": {
+   "rendered": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team"
+  },
+  "yoast_head_json": {
+   "title": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team",
+   "og_description": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team Some of our work for YSpace Northern Hub&#8217;s Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:01:12+00:00",
+   "og_image": [
+    {
+     "width": 658,
+     "height": 326,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/yspaceBanner.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/",
+      "url": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/",
+      "name": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/yspaceBanner.png",
+      "datePublished": "2025-08-06T10:16:40+00:00",
+      "dateModified": "2025-08-07T07:01:12+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/yspaceBanner.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/yspaceBanner.png",
+      "width": 658,
+      "height": 326
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-yspace-northern-hub-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How YSpace Northern Hub Scales Faster With a Dedicated Kimp Design Team"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139297,
+  "modified": "2025-08-07T03:00:21",
+  "slug": "how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team",
+  "link": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/",
+  "title": {
+   "rendered": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team"
+  },
+  "yoast_head_json": {
+   "title": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team",
+   "og_description": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team Some of our work for Toronto Business Development Centre&#8217;s Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T07:00:21+00:00",
+   "og_image": [
+    {
+     "width": 658,
+     "height": 326,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/tbdcbanner-1.webp",
+     "type": "image/webp"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/",
+      "url": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/",
+      "name": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/tbdcbanner-1.webp",
+      "datePublished": "2025-08-06T10:10:36+00:00",
+      "dateModified": "2025-08-07T07:00:21+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/tbdcbanner-1.webp",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/tbdcbanner-1.webp",
+      "width": 658,
+      "height": 326
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-toronto-business-development-centre-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Toronto Business Development Centre Scales Faster With a Dedicated Kimp Design Team"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139286,
+  "modified": "2025-08-07T02:59:49",
+  "slug": "how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team",
+  "link": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/",
+  "title": {
+   "rendered": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team"
+  },
+  "yoast_head_json": {
+   "title": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team",
+   "og_description": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team Some of our work for The U.S. Army&#8217;s Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T06:59:49+00:00",
+   "og_image": [
+    {
+     "width": 658,
+     "height": 326,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/armyBanner.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/",
+      "url": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/",
+      "name": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/armyBanner.png",
+      "datePublished": "2025-08-06T09:08:22+00:00",
+      "dateModified": "2025-08-07T06:59:49+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/armyBanner.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/armyBanner.png",
+      "width": 658,
+      "height": 326
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-the-u-s-army-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How The U.S. Army Scales Faster With a Dedicated Kimp Design Team"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 139277,
+  "modified": "2025-08-07T02:59:34",
+  "slug": "how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team",
+  "link": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/",
+  "title": {
+   "rendered": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team"
+  },
+  "yoast_head_json": {
+   "title": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team - Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team",
+   "og_description": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team Some of our work for Beam Minerals Project",
+   "og_url": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/",
+   "og_site_name": "Kimp",
+   "article_modified_time": "2025-08-07T06:59:34+00:00",
+   "og_image": [
+    {
+     "width": 658,
+     "height": 326,
+     "url": "https://www.kimp.io/wp-content/uploads/2025/08/BeamBanner.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/",
+      "url": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/",
+      "name": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team - Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.kimp.io/wp-content/uploads/2025/08/BeamBanner.png",
+      "datePublished": "2025-08-06T09:03:37+00:00",
+      "dateModified": "2025-08-07T06:59:34+00:00",
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/#primaryimage",
+      "url": "https://www.kimp.io/wp-content/uploads/2025/08/BeamBanner.png",
+      "contentUrl": "https://www.kimp.io/wp-content/uploads/2025/08/BeamBanner.png",
+      "width": 658,
+      "height": 326
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/enterprise-case/how-beam-minerals-scales-faster-with-a-dedicated-kimp-design-team/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How Beam Minerals Scales Faster With a Dedicated Kimp Design Team"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ }
+]

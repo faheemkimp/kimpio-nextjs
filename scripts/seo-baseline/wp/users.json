@@ -1,0 +1,950 @@
+[
+ {
+  "id": 12392,
+  "name": "Abirami",
+  "link": "https://www.kimp.io/author/abiramikimp-xyz/",
+  "slug": "abiramikimp-xyz",
+  "yoast_head_json": {
+   "title": "Abirami, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/abiramikimp-xyz/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Abirami",
+   "og_url": "https://www.kimp.io/author/abiramikimp-xyz/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/2d9e0fe11d0f4accb11bc04e7968461c6a2ff45a4819fef4f168fdb17c9df732?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/abiramikimp-xyz/",
+      "url": "https://www.kimp.io/author/abiramikimp-xyz/",
+      "name": "Abirami, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/abiramikimp-xyz/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/abiramikimp-xyz/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/abiramikimp-xyz/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Abirami"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/1f0afccdb39989a2be388ec5f0bd444b",
+      "name": "Abirami",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/2d9e0fe11d0f4accb11bc04e7968461c6a2ff45a4819fef4f168fdb17c9df732?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/2d9e0fe11d0f4accb11bc04e7968461c6a2ff45a4819fef4f168fdb17c9df732?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/2d9e0fe11d0f4accb11bc04e7968461c6a2ff45a4819fef4f168fdb17c9df732?s=96&d=mm&r=g",
+       "caption": "Abirami"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/abiramikimp-xyz/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 1515,
+  "name": "ap1admin ap1admin",
+  "link": "https://www.kimp.io/author/ap1admin/",
+  "slug": "ap1admin",
+  "yoast_head_json": {
+   "title": "ap1admin ap1admin, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/ap1admin/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "ap1admin ap1admin",
+   "og_url": "https://www.kimp.io/author/ap1admin/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/84fe652c8a88aab78b68012217f688ae35928c806d82077cf9a8d1116a5d0fe3?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/ap1admin/",
+      "url": "https://www.kimp.io/author/ap1admin/",
+      "name": "ap1admin ap1admin, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/ap1admin/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/ap1admin/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/ap1admin/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for ap1admin ap1admin"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/943169bab7535e4e7ec186a3df4ee71e",
+      "name": "ap1admin ap1admin",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/84fe652c8a88aab78b68012217f688ae35928c806d82077cf9a8d1116a5d0fe3?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/84fe652c8a88aab78b68012217f688ae35928c806d82077cf9a8d1116a5d0fe3?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/84fe652c8a88aab78b68012217f688ae35928c806d82077cf9a8d1116a5d0fe3?s=96&d=mm&r=g",
+       "caption": "ap1admin ap1admin"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/ap1admin/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 16767,
+  "name": "Jenifer Dela Cruz",
+  "link": "https://www.kimp.io/author/dcruz/",
+  "slug": "dcruz",
+  "yoast_head_json": {
+   "title": "Jenifer Dela Cruz, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/dcruz/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Jenifer Dela Cruz",
+   "og_url": "https://www.kimp.io/author/dcruz/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/240b84190db8e48aef768de40acc14e56566a30d661d21a7da4e609b4d08cd8b?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/dcruz/",
+      "url": "https://www.kimp.io/author/dcruz/",
+      "name": "Jenifer Dela Cruz, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/dcruz/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/dcruz/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/dcruz/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Jenifer Dela Cruz"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/1eac3ed8ce9d44c97b8e160d57745610",
+      "name": "Jenifer Dela Cruz",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/240b84190db8e48aef768de40acc14e56566a30d661d21a7da4e609b4d08cd8b?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/240b84190db8e48aef768de40acc14e56566a30d661d21a7da4e609b4d08cd8b?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/240b84190db8e48aef768de40acc14e56566a30d661d21a7da4e609b4d08cd8b?s=96&d=mm&r=g",
+       "caption": "Jenifer Dela Cruz"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/dcruz/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 32,
+  "name": "Nivethika",
+  "link": "https://www.kimp.io/author/nive/",
+  "slug": "nive",
+  "yoast_head_json": {
+   "title": "Nivethika, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/nive/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Nivethika",
+   "og_url": "https://www.kimp.io/author/nive/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/fffc3f280612f0242e4100a20b54c07cbd66f151a69c66c1fb34a3b594277466?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/nive/",
+      "url": "https://www.kimp.io/author/nive/",
+      "name": "Nivethika, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/nive/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/nive/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/nive/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Nivethika"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/a62cfba2116cae44b8c537364c7f5c7c",
+      "name": "Nivethika",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/fffc3f280612f0242e4100a20b54c07cbd66f151a69c66c1fb34a3b594277466?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/fffc3f280612f0242e4100a20b54c07cbd66f151a69c66c1fb34a3b594277466?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/fffc3f280612f0242e4100a20b54c07cbd66f151a69c66c1fb34a3b594277466?s=96&d=mm&r=g",
+       "caption": "Nivethika"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/nive/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 30,
+  "name": "Prem S",
+  "link": "https://www.kimp.io/author/prem/",
+  "slug": "prem",
+  "yoast_head_json": null
+ },
+ {
+  "id": 5,
+  "name": "senthu",
+  "link": "https://www.kimp.io/author/senthu/",
+  "slug": "senthu",
+  "yoast_head_json": {
+   "title": "senthu, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/senthu/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "senthu",
+   "og_url": "https://www.kimp.io/author/senthu/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/6943cd6bd00ff09d333e8e91ef601b45e14f1589d883efb2655cc151d1f6e955?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/senthu/",
+      "url": "https://www.kimp.io/author/senthu/",
+      "name": "senthu, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/senthu/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/senthu/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/senthu/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for senthu"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/716a68211a8ac60dfc4b60dc855d0a73",
+      "name": "senthu",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/6943cd6bd00ff09d333e8e91ef601b45e14f1589d883efb2655cc151d1f6e955?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/6943cd6bd00ff09d333e8e91ef601b45e14f1589d883efb2655cc151d1f6e955?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/6943cd6bd00ff09d333e8e91ef601b45e14f1589d883efb2655cc151d1f6e955?s=96&d=mm&r=g",
+       "caption": "senthu"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/senthu/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 169,
+  "name": "tibin",
+  "link": "https://www.kimp.io/author/tibin/",
+  "slug": "tibin",
+  "yoast_head_json": {
+   "title": "tibin, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/tibin/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "tibin",
+   "og_url": "https://www.kimp.io/author/tibin/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/8193b5c3320c5e4299417358ad50d04c599442cf6308c46d9c83319a444b0dc7?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/tibin/",
+      "url": "https://www.kimp.io/author/tibin/",
+      "name": "tibin, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/tibin/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/tibin/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/tibin/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for tibin"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/d5179afd2e9f1af57f8ef8ae17467357",
+      "name": "tibin",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/8193b5c3320c5e4299417358ad50d04c599442cf6308c46d9c83319a444b0dc7?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/8193b5c3320c5e4299417358ad50d04c599442cf6308c46d9c83319a444b0dc7?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/8193b5c3320c5e4299417358ad50d04c599442cf6308c46d9c83319a444b0dc7?s=96&d=mm&r=g",
+       "caption": "tibin"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/tibin/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 27,
+  "name": "Venhad Vel",
+  "link": "https://www.kimp.io/author/venhad/",
+  "slug": "venhad",
+  "yoast_head_json": {
+   "title": "Venhad Vel, Author at Kimp",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://www.kimp.io/author/venhad/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Venhad Vel",
+   "og_url": "https://www.kimp.io/author/venhad/",
+   "og_site_name": "Kimp",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/5d824a23493d7d32295150ae4edf81c5c4f607c2bd99cfff83b6c8f78ed8267e?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://www.kimp.io/author/venhad/",
+      "url": "https://www.kimp.io/author/venhad/",
+      "name": "Venhad Vel, Author at Kimp",
+      "isPartOf": {
+       "@id": "https://www.kimp.io/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://www.kimp.io/author/venhad/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://www.kimp.io/author/venhad/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kimp.io/author/venhad/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.kimp.io/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Venhad Vel"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://www.kimp.io/#website",
+      "url": "https://www.kimp.io/",
+      "name": "Kimp",
+      "description": "Unlimited Graphic Design",
+      "publisher": {
+       "@id": "https://www.kimp.io/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.kimp.io/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://www.kimp.io/#organization",
+      "name": "Kimp",
+      "url": "https://www.kimp.io/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://www.kimp.io/#/schema/logo/image/",
+       "url": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "contentUrl": "https://www.kimp.io/wp-content/uploads/2021/01/Kimp.jpg",
+       "width": 642,
+       "height": 300,
+       "caption": "Kimp"
+      },
+      "image": {
+       "@id": "https://www.kimp.io/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://www.kimp.io/#/schema/person/cc039b371db81e73e4b8f82d492a476f",
+      "name": "Venhad Vel",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/5d824a23493d7d32295150ae4edf81c5c4f607c2bd99cfff83b6c8f78ed8267e?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/5d824a23493d7d32295150ae4edf81c5c4f607c2bd99cfff83b6c8f78ed8267e?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/5d824a23493d7d32295150ae4edf81c5c4f607c2bd99cfff83b6c8f78ed8267e?s=96&d=mm&r=g",
+       "caption": "Venhad Vel"
+      },
+      "sameAs": [
+       "http://www.hyov.com"
+      ],
+      "mainEntityOfPage": {
+       "@id": "https://www.kimp.io/author/venhad/"
+      }
+     }
+    ]
+   }
+  }
+ }
+]

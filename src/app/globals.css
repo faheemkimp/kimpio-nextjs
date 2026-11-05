@@ -1,26 +1,826 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
+/*
+ * Kimp design tokens. Brand values come from the WordPress theme
+ * (kimpstyle.scss): charcoal #1b1e23, Kimp orange #f1731e, slate #3f4c5c / #677c99,
+ * teal #00806c, surfaces #f2f5f8 / #e8edf2.
+ */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-gilroy), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-gilroy), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-slate-brand: var(--slate-brand);
+  --color-teal-brand: var(--teal-brand);
+  --color-teal-soft: var(--teal-soft);
+  --color-surface: var(--surface);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --brand: #f1731e;
+  --brand-strong: #d85f0d;
+  --brand-soft: #fff1e7;
+  --ink: #1b1e23;
+  --ink-soft: #2a2f36;
+  --slate-brand: #677c99;
+  --teal-brand: #00806c;
+  --teal-soft: #e6f4f1;
+  --surface: #f2f5f8;
+
+  --background: #ffffff;
+  --foreground: #1b1e23;
+  --card: #ffffff;
+  --card-foreground: #1b1e23;
+  --popover: #ffffff;
+  --popover-foreground: #1b1e23;
+  --primary: #f1731e;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f5f8;
+  --secondary-foreground: #1b1e23;
+  --muted: #f2f5f8;
+  /* #57687f on white = 5.6:1 (WCAG AA for body text); the theme's #677c99 is 4.2:1. */
+  --muted-foreground: #57687f;
+  --accent: #fff1e7;
+  --accent-foreground: #1b1e23;
+  --destructive: #c62828;
+  --border: #e3e8ef;
+  --input: #dfe4ea;
+  --ring: #f1731e;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth font-sans;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01";
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading tracking-tight text-balance;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-page {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+/*
+ * Typography for WordPress post HTML (content.rendered). Styled by element
+ * because editors author it in Gutenberg/Classic, not in React.
+ */
+@utility wp-content {
+  @apply text-[1.0625rem] leading-[1.8] text-ink-soft;
+
+  & > * + * {
+    margin-top: 1.25em;
+  }
+  & h2 {
+    @apply mt-12 scroll-mt-28 text-2xl font-bold text-ink sm:text-[1.75rem];
+  }
+  & h3 {
+    @apply mt-10 scroll-mt-28 text-xl font-bold text-ink;
+  }
+  & h4 {
+    @apply mt-8 text-lg font-semibold text-ink;
+  }
+  & a {
+    @apply font-medium text-teal-brand underline decoration-teal-brand/30 underline-offset-4 transition-colors hover:decoration-teal-brand;
+  }
+  & strong {
+    @apply font-semibold text-ink;
+  }
+  & ul {
+    @apply list-disc space-y-2 pl-6 marker:text-brand;
+  }
+  & ol {
+    @apply list-decimal space-y-2 pl-6 marker:font-semibold marker:text-ink;
+  }
+  & blockquote {
+    @apply rounded-r-xl border-l-4 border-brand bg-brand-soft/60 px-6 py-4 text-lg text-ink italic;
+  }
+  & img {
+    @apply mx-auto h-auto max-w-full rounded-xl;
+  }
+  & figure {
+    @apply my-8;
+  }
+  & figcaption {
+    @apply mt-2 text-center text-sm text-muted-foreground;
+  }
+  & iframe,
+  & video {
+    @apply aspect-video h-auto w-full rounded-xl;
+  }
+  & table {
+    @apply block w-full overflow-x-auto text-left text-base;
+  }
+  & th {
+    @apply border-b-2 border-border bg-surface px-4 py-2 font-semibold text-ink;
+  }
+  & td {
+    @apply border-b border-border px-4 py-2 align-top;
+  }
+  & hr {
+    @apply my-10 border-border;
+  }
+  & pre {
+    @apply overflow-x-auto rounded-xl bg-ink p-4 text-sm text-white;
+  }
+  & .wp-block-button__link {
+    @apply inline-flex rounded-lg bg-brand px-5 py-3 font-semibold text-white no-underline hover:bg-brand-strong;
+  }
+  & .aligncenter {
+    @apply mx-auto;
+  }
+  & .screen-reader-text {
+    @apply sr-only;
+  }
+}
+
+/*
+ * Hero workflow canvas (src/components/home/workflow): no frame, the 3D board
+ * dissolves into the page. Desktop also fades the left edge under the hero copy;
+ * the right edge runs off the viewport.
+ */
+.workflow-canvas {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    #000 10%,
+    #000 88%,
+    transparent
+  );
+}
+@media (min-width: 64rem) {
+  .workflow-canvas {
+    mask-image:
+      linear-gradient(to right, transparent, #000 16%),
+      linear-gradient(to bottom, transparent, #000 18%, #000 86%, transparent);
+    mask-composite: intersect;
+  }
+}
+
+/*
+ * Client-logo marquee (src/components/home/hero.tsx): the track holds the logo
+ * list twice and slides by half its width, so the loop is seamless. Edges fade
+ * out; hover pauses; reduced motion shows a static row.
+ */
+.logo-marquee {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 12%,
+    #000 88%,
+    transparent
+  );
+}
+.logo-marquee-track {
+  animation: logo-marquee 40s linear infinite;
+}
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+@keyframes logo-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee-track {
+    animation: none !important;
+  }
+}
+
+/*
+ * Secondary hero (src/components/home/secondary): design cards bob gently.
+ * Reduced motion is handled by the global rule above.
+ */
+.hero2-float {
+  animation: hero2-float 6s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes hero2-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8%);
+  }
+}
+
+/* Shared micro-animations: typing dots (campaign-journey) and spin (.flow-spin). */
+@media (prefers-reduced-motion: no-preference) {
+  .bento-typing > span {
+    animation: bento-typing 1.2s ease-in-out infinite;
+  }
+  .bento-typing > span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  .bento-typing > span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+}
+@keyframes bento-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bento-typing {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  30% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+
+/* ---------------- hero workflow animation (src/components/home/workflow-animation) ---------------- */
+.wf-root {
+  container-type: inline-size;
+}
+.wf-root svg {
+  font-family: var(--font-sans);
+}
+.wf-root[data-ready="false"] .wf-svg {
+  opacity: 0;
+}
+.wf-caption {
+  font-family: var(--font-sans);
+}
+.wf-caption-text {
+  animation: wf-caption-in 0.35s ease-out;
+}
+@keyframes wf-caption-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+@container (max-width: 540px) {
+  .wf-caption {
+    font-size: 0.8rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wf-caption-text {
+    animation: none;
+  }
+}
+
+/*
+ * Homepage sections (src/components/home/sections). Decorative motion only;
+ * everything is static under prefers-reduced-motion.
+ */
+
+/* Build vs buy: torn zig-zag bottom edge on the in-house receipt */
+.receipt {
+  --zig: 14px;
+  mask:
+    linear-gradient(#000 0 0) top / 100% calc(100% - var(--zig)) no-repeat,
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg)
+      bottom / calc(var(--zig) * 2) var(--zig) repeat-x;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .layer-slab {
+    animation: slab-float 5s ease-in-out infinite;
+    animation-delay: var(--d, 0ms);
+  }
+  .mode-step {
+    animation: mode-step-in 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  .board-card {
+    animation: board-bob 6s ease-in-out infinite;
+  }
+  .memory-fill {
+    animation: memory-fill 1.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  .cta-fly {
+    animation: mascot-fly 6s ease-in-out infinite;
+  }
+  .cta-rise {
+    animation: mascot-rise 5s ease-in-out infinite;
+  }
+  .fly-line {
+    transform-origin: right center;
+    animation: fly-line 0.9s linear infinite both;
+  }
+}
+
+/* Speed lines: shoot out backwards from the mascot and fade. Hidden when motion is reduced. */
+.fly-line {
+  opacity: 0;
+}
+@keyframes fly-line {
+  0% {
+    translate: 40% 0;
+    scale: 0.2 1;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    translate: -90% 0;
+    scale: 1 1;
+    opacity: 0;
+  }
+}
+
+@keyframes slab-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes mode-step-in {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+}
+@keyframes board-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes memory-fill {
+  from {
+    width: 0;
+  }
+}
+@keyframes mascot-rise {
+  0%,
+  100% {
+    translate: 0 0;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 4px -18px;
+    rotate: 1.5deg;
+  }
+}
+
+@keyframes mascot-fly {
+  0%,
+  100% {
+    translate: 0 0;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 10px -14px;
+    rotate: -3deg;
+  }
+}
+
+/* ---------------- hero frame: rounded box with a travelling light border ---------------- */
+@property --hero-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.hero-frame {
+  --hero-light: conic-gradient(
+    from var(--hero-angle),
+    transparent 0% 62%,
+    rgb(3 129 109 / 0.55) 74%,
+    #f07422 84%,
+    #ffc08f 88%,
+    transparent 96% 100%
+  );
+  /* Dark teal: deep base, brand-teal glow top-left, a faint warm hint bottom-right */
+  background:
+    radial-gradient(60% 55% at 12% 8%, rgb(0 128 108 / 0.55), transparent 70%),
+    radial-gradient(45% 50% at 92% 95%, rgb(241 115 30 / 0.12), transparent 70%),
+    linear-gradient(160deg, #04463d 0%, #032f2a 55%, #021f1c 100%);
+  color: #fff;
+}
+/* crisp 1.5px light line riding the border */
+.hero-frame::before {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+  background: var(--hero-light);
+  animation: hero-light-spin 9s linear infinite;
+}
+.hero-frame::before {
+  inset: 0;
+  z-index: 2;
+  padding: 1.5px;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+}
+@keyframes hero-light-spin {
+  to {
+    --hero-angle: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-frame::before {
+    animation: none;
+    --hero-angle: 210deg;
+  }
+}
+
+/* ---------------- site header: compact fixed bar once the page scrolls ---------------- */
+@keyframes header-drop-in {
+  from {
+    transform: translateY(-100%);
+  }
+}
+.header-bar-fixed {
+  animation: header-drop-in 0.3s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-bar-fixed {
+    animation: none;
+  }
+}
+
+/*
+ * ---------------- Homepage redesign (src/components/home/sections + fx) ----------------
+ * Scroll motion is driven by <ScrollFx> (GSAP) through data-fx attributes; the
+ * rules here are only static styling and small CSS loops. Everything renders in
+ * its final state without JS or under prefers-reduced-motion.
+ */
+
+/* masked word reveal used by SectionHeading */
+.fx-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+}
+.fx-word > span {
+  display: inline-block;
+}
+
+.fx-dots {
+  background-image: radial-gradient(rgb(27 30 35 / 0.09) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* the thread that links one section to the next */
+.fx-thread-node {
+  box-shadow:
+    0 0 0 6px rgb(241 115 30 / 0.15),
+    0 0 24px rgb(241 115 30 / 0.55);
+}
+
+/* review marquee: rows of cards drifting in opposite directions */
+.review-marquee {
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.review-marquee:hover .logo-marquee-track,
+.review-marquee:focus-within .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+/* sticky campaign story: stage screens cross-fade */
+.story-screen {
+  transition:
+    opacity 0.6s ease,
+    transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
+    filter 0.6s ease;
+}
+.story-screen[data-active="false"] {
+  opacity: 0;
+  transform: translateY(24px) scale(0.97);
+  filter: blur(6px);
+  pointer-events: none;
+}
+.story-step {
+  transition:
+    opacity 0.4s ease,
+    color 0.4s ease;
+}
+
+/* pricing card light sweep */
+.price-sheen {
+  background: linear-gradient(110deg, transparent 35%, rgb(255 255 255 / 0.55) 50%, transparent 65%);
+  background-size: 250% 100%;
+  background-position: 120% 0;
+  transition: background-position 0.9s ease;
+}
+.group:hover .price-sheen {
+  background-position: -20% 0;
+}
+
+/* hybrid-equation.tsx: flow diagrams inside each card's top panel */
+.flow-wire {
+  background-image: linear-gradient(90deg, var(--wire, rgb(27 30 35 / 0.3)) 50%, transparent 0);
+  background-size: 6px 1.5px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+}
+.flow-packet {
+  left: 0;
+  opacity: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .flow-wire {
+    animation: flow-dash var(--wire-speed, 1s) linear infinite;
+  }
+  .flow-packet {
+    animation: flow-packet var(--wire-speed, 1s) ease-in-out infinite;
+    animation-delay: var(--packet-delay, 0s);
+  }
+  .flow-ping {
+    animation: flow-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  .flow-row {
+    animation: flow-row 4.8s ease-out infinite both;
+    animation-delay: calc(var(--i, 0) * 0.35s + 0.6s);
+  }
+  .flow-glitch {
+    animation: flow-glitch 2.6s steps(1) infinite;
+  }
+  .flow-flip {
+    animation: flow-flip 3s ease-in-out infinite;
+  }
+  .flow-spin {
+    animation: bento-spin 3.5s linear infinite;
+  }
+}
+@keyframes flow-dash {
+  to {
+    background-position: 12px 50%;
+  }
+}
+@keyframes flow-packet {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  15%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    left: calc(100% - 6px);
+    opacity: 0;
+  }
+}
+@keyframes flow-ping {
+  75%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+@keyframes flow-row {
+  0%,
+  6% {
+    opacity: 0;
+    transform: translateX(-6px);
+  }
+  14%,
+  88% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes flow-glitch {
+  0%,
+  100% {
+    transform: none;
+    filter: none;
+  }
+  82% {
+    transform: translateX(2px) skewX(-8deg);
+    filter: hue-rotate(90deg);
+  }
+  86% {
+    transform: translateX(-2px);
+  }
+  90% {
+    transform: none;
+    filter: none;
+  }
+}
+@keyframes flow-flip {
+  0%,
+  40% {
+    transform: rotate(0deg);
+  }
+  55%,
+  90% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fx-float {
+    animation: bento-float 7s ease-in-out infinite;
+  }
+  .fx-float-slow {
+    animation: bento-float 9s ease-in-out infinite reverse;
+  }
+  .fx-spin-slow {
+    animation: bento-spin 40s linear infinite;
+  }
+  .fx-thread-node {
+    animation: thread-pulse 2.4s ease-in-out infinite;
+  }
+  .fx-orbit-dot {
+    offset-path: var(--orbit);
+    animation: orbit-travel 6s linear infinite;
+    animation-delay: var(--delay, 0s);
+  }
+}
+@keyframes thread-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 6px rgb(241 115 30 / 0.15),
+      0 0 18px rgb(241 115 30 / 0.45);
+  }
+  50% {
+    box-shadow:
+      0 0 0 12px rgb(241 115 30 / 0.05),
+      0 0 30px rgb(241 115 30 / 0.7);
+  }
+}
+@keyframes orbit-travel {
+  from {
+    offset-distance: 0%;
+  }
+  to {
+    offset-distance: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .review-marquee {
+    overflow-x: auto;
+    mask-image: none;
+  }
+  .review-marquee .logo-marquee-track {
+    animation: none !important;
+  }
+  .fx-orbit-dot {
+    display: none;
+  }
+}
+
+/*
+ * "Who it's for" bento scenes (team-use-cases.tsx). Base styles are the
+ * resting state, so reduced motion shows a complete, static scene.
+ */
+.aud-hl {
+  opacity: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .aud-hl {
+    animation: aud-hl 4.8s ease-in-out infinite both;
+    animation-delay: var(--d, 0s);
+  }
+  .aud-grow-x {
+    transform-origin: left;
+    animation: aud-grow-x 5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite both;
+    animation-delay: var(--d, 0s);
+  }
+  .aud-grow-y {
+    transform-origin: bottom;
+    animation: aud-grow-y 5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite both;
+    animation-delay: var(--d, 0s);
+  }
+}
+@keyframes aud-hl {
+  0%,
+  30%,
+  100% {
+    opacity: 0;
+  }
+  8%,
+  20% {
+    opacity: 1;
+  }
+}
+@keyframes aud-grow-x {
+  0% {
+    transform: scaleX(0);
+  }
+  30%,
+  90% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+@keyframes aud-grow-y {
+  0% {
+    transform: scaleY(0.1);
+  }
+  30%,
+  90% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.1);
+  }
+}
+
+/* KIMP360 cards: swapped text eases in; 3D accent bobs in the Team card's corner */
+.cc-swap {
+  animation: cc-swap-in 0.35s ease-out;
+}
+@keyframes cc-swap-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+}
+.cc-float {
+  animation: cc-float 4.8s ease-in-out infinite;
+}
+@keyframes cc-float {
+  50% {
+    transform: translateY(-10px) rotate(3deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cc-swap,
+  .cc-float {
+    animation: none;
+  }
 }

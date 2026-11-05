@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /wp-login.php
+Disallow: /register-new
+Disallow: /service-plans
+Disallow: /service-plans-upgrade
+Disallow: /invoice-download
+Disallow: /book-a-call-introductory
+Disallow: /v1
+Disallow: /v2
+Disallow: /v3
+Disallow: /new-clients
+
+Sitemap: https://www.kimp.io/sitemap_index.xml

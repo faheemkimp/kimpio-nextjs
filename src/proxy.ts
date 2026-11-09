@@ -11,10 +11,14 @@ import { WP_ORIGIN } from "@/lib/site";
 function proxyToWordPress(req: NextRequest): NextResponse {
   const target = new URL(req.nextUrl.pathname + req.nextUrl.search, WP_ORIGIN);
   const headers = new Headers(req.headers);
-  // The theme identifies visitors by CF-Connecting-IP (getKimpUserIP): keep the real visitor IP.
   const ip = req.headers.get("cf-connecting-ip") ?? req.headers.get("x-real-ip");
+  // www.kimp.io sits behind Cloudflare, which rejects any incoming request that
+  // already carries its own headers (CF-Connecting-IP, CF-Ray, ...) with
+  // "Error 1000". Cloudflare sets CF-Connecting-IP itself, so never forward them;
+  // the real visitor IP travels in X-Forwarded-For / X-Real-IP instead.
+  for (const name of [...headers.keys()]) if (name.startsWith("cf-")) headers.delete(name);
   if (ip) {
-    headers.set("cf-connecting-ip", ip);
+    headers.set("x-real-ip", ip);
     headers.set("x-forwarded-for", [req.headers.get("x-forwarded-for"), ip].filter(Boolean).join(", "));
   }
   headers.set("x-forwarded-host", req.headers.get("host") ?? "www.kimp.io");

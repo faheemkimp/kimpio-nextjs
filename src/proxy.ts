@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-import { isNextInternal, resolveOwner } from "@/lib/routing/ownership";
+import { isNextInternal, isReviewHost, resolveOwner } from "@/lib/routing/ownership";
 import { WP_ORIGIN } from "@/lib/site";
 
 /**
@@ -30,7 +30,8 @@ export function proxy(req: NextRequest) {
   const { pathname, searchParams } = req.nextUrl;
   if (isNextInternal(pathname)) return NextResponse.next();
 
-  if (resolveOwner(pathname, searchParams) === "wordpress") return proxyToWordPress(req);
+  const host = req.headers.get("host");
+  if (resolveOwner(pathname, searchParams, host) === "wordpress") return proxyToWordPress(req);
 
   if (!pathname.endsWith("/")) {
     // A plain URL, not req.nextUrl.clone(): NextURL strips the trailing slash when it
@@ -39,7 +40,10 @@ export function proxy(req: NextRequest) {
     url.pathname = `${pathname}/`;
     return NextResponse.redirect(url, 301);
   }
-  return withLoginFlag(req, NextResponse.next());
+  const res = withLoginFlag(req, NextResponse.next());
+  // Review copies (*.vercel.app) must not compete with www.kimp.io in search.
+  if (isReviewHost(host)) res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return res;
 }
 
 /**

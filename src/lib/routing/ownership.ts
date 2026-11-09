@@ -17,9 +17,9 @@ export const REDESIGNED_PAGES = new Set<string>([
 ]);
 
 /**
- * Built and waiting for review: rendered by Next.js in `next dev` only, so they
- * can be checked on localhost. Production keeps sending these URLs to WordPress
- * until the path is moved into REDESIGNED_PAGES.
+ * Built and waiting for review: rendered by Next.js on localhost and the Vercel
+ * review URL (see isReviewHost). The live domain www.kimp.io keeps sending these
+ * URLs to WordPress until the path is moved into REDESIGNED_PAGES.
  */
 const PREVIEW_PAGES = new Set<string>([
   // Kimp Video (same URL as live; SEO from Yoast).
@@ -86,7 +86,18 @@ const PREVIEW_PAGES = new Set<string>([
   "/case-study/wgan/",
 ]);
 
-const isDev = process.env.NODE_ENV === "development";
+/** The real public domains. Here only REDESIGNED_PAGES are served by Next.js. */
+const LIVE_HOSTS = new Set(["www.kimp.io", "kimp.io"]);
+
+/**
+ * Preview pages are shown everywhere except the live domains: localhost and the
+ * Vercel review URLs (*.vercel.app). On www.kimp.io they keep going to WordPress
+ * until moved into REDESIGNED_PAGES.
+ */
+export function isReviewHost(host: string | null): boolean {
+  const name = (host ?? "").split(":")[0].toLowerCase();
+  return !LIVE_HOSTS.has(name);
+}
 
 /**
  * Query params that only WordPress understands (search, shortlinks, previews,
@@ -101,10 +112,10 @@ export function isNextInternal(pathname: string): boolean {
   return pathname.startsWith("/_next/") || pathname.startsWith("/api/");
 }
 
-export function resolveOwner(pathname: string, search: URLSearchParams): Owner {
+export function resolveOwner(pathname: string, search: URLSearchParams, host: string | null): Owner {
   if (isNextInternal(pathname)) return "next";
   if (WP_QUERY_PARAMS.some((p) => search.has(p))) return "wordpress";
   const path = pathname.endsWith("/") ? pathname : `${pathname}/`;
   if (REDESIGNED_PAGES.has(path)) return "next";
-  return isDev && PREVIEW_PAGES.has(path) ? "next" : "wordpress";
+  return isReviewHost(host) && PREVIEW_PAGES.has(path) ? "next" : "wordpress";
 }

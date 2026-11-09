@@ -5,6 +5,7 @@ import { ScrollFx } from "@/components/home/fx/scroll-fx";
 import { ScrollThread } from "@/components/home/fx/scroll-thread";
 import { Hero } from "@/components/home/hero";
 import { CommandCenter } from "@/components/home/kimp360/command-center";
+import { BlogSection } from "@/components/home/sections/blog-section";
 import { BuildVsBuy } from "@/components/home/sections/build-vs-buy";
 import { CampaignJourney } from "@/components/home/sections/campaign-journey";
 import { FaqSection } from "@/components/home/sections/faq-section";
@@ -55,6 +56,7 @@ export default async function HomePage() {
         <TeamUseCases />
         <PricingPlans />
         <ReviewsWall />
+        <BlogSection />
         <ScrollThread label="Questions" from={WHITE} to={SURFACE} className={THREAD} />
         <FaqSection />
       </main>

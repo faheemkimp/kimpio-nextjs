@@ -9,8 +9,7 @@ export const HERO = {
   eyebrow: ["AI-Accelerated", "Human-Led", "Built for Agencies & Marketing Teams"],
   headline: { lead: "Your AI-powered", highlight: "creative department." },
   intro:
-    "A dedicated design team, equipped with AI and working from your brand guidelines, so every design is made by humans and never looks like it came out of a generator.",
-  introOffer: { lead: "Unlimited graphic and video design requests and revisions,", strong: "for one flat monthly fee." },
+    "A dedicated design team, equipped with AI and working from your brand guidelines, so every design is made by humans and never looks like it came out of a generator. Prefer no AI at all? Your team won't touch it. Unlimited graphic and video design requests and revisions, for one flat monthly fee.",
   primaryCta: { label: "Start Your Free 7-Day Trial", href: "/register-now/" },
   video: { label: "See How It Works (90 sec)", src: "https://www.youtube.com/embed/Sa20jGoBSnI" },
   features: ["Sign up in 2 minutes", "Cancel anytime", "Absolutely no contracts"],

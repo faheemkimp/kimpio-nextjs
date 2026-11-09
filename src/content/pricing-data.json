@@ -1,0 +1,407 @@
+{
+  "plans": [
+    {
+      "id": "graphics",
+      "name": "GRAPHICS",
+      "blurb": "Graphic designs for day-to-day marketing needs and big campaigns.",
+      "features": [
+        {
+          "label": "Unlimited Requests"
+        },
+        {
+          "label": "Unlimited Revisions"
+        },
+        {
+          "label": "Unlimited Brands"
+        },
+        {
+          "label": "No Contract"
+        },
+        {
+          "label": "24 Hour Turnaround"
+        },
+        {
+          "label": "3 Active Requests",
+          "tip": "With one Kimp Graphics subscription your Dedicated Design Team will work on 3 of your design requests at any given time. You'll see these requests in the 'In Progress' step of the design workflow. Need faster turnarounds? Just add additional subscriptions."
+        },
+        {
+          "label": "Add Unlimited Team Members"
+        },
+        {
+          "label": "Dedicated Design Team"
+        },
+        {
+          "label": "Dedicated Project Manager"
+        },
+        {
+          "label": "Free Stock Images",
+          "tip": "Your Dedicated Design Team will source stock assets to create your designs with, as needed."
+        },
+        {
+          "label": "Source Files"
+        },
+        {
+          "label": "Includes Print & Digital Designs"
+        },
+        {
+          "label": "Also Includes Custom Illustrations"
+        },
+        {
+          "label": "Also Includes Basic GIFs",
+          "tip": "Basic GIFs are simple animations, 2-3 seconds long, which are created in Photoshop and include text animations, flashing buttons, etc."
+        },
+        {
+          "label": "Also Includes Landing Page Designs"
+        },
+        {
+          "label": "Also Includes Website, App and UI Designs",
+          "tip": "All UI designs except landing pages require a wireframe to be included in the design brief."
+        },
+        {
+          "label": "Also Includes Canva Designs",
+          "tip": "For designs that need to be created in Canva, just invite your Kimp Team to your Canva Account, and we'll take care of the rest!"
+        },
+        {
+          "label": "KIMP360 Design Management"
+        }
+      ]
+    },
+    {
+      "id": "graphics-video",
+      "name": "GRAPHICS + VIDEO",
+      "blurb": "Get everything from Kimp Graphics + Kimp Video for a discounted flat monthly fee.",
+      "features": [
+        {
+          "label": "Unlimited Requests"
+        },
+        {
+          "label": "Unlimited Revisions"
+        },
+        {
+          "label": "Unlimited Brands"
+        },
+        {
+          "label": "No Contract"
+        },
+        {
+          "label": "24 Hour Turnaround"
+        },
+        {
+          "label": "5 Active Requests",
+          "tip": "With one Kimp Graphics + Video subscription your Dedicated Design Team will work on 3 of your graphic design requests and 2 of your video design requests at any given time. Your graphic design requests will never interfere with how quickly your video design requests are completed or vice versa. You'll always see Graphics requests and Video requests in progress at the same time. You'll see these requests in the 'In Progress' step of the design workflow. Need faster turnarounds? Just add additional subscriptions."
+        },
+        {
+          "label": "Add Unlimited Team Members"
+        },
+        {
+          "label": "Dedicated Design & Video Team"
+        },
+        {
+          "label": "Dedicated Project Manager"
+        },
+        {
+          "label": "Free Stock Images, Videos & Audio",
+          "tip": "Your Dedicated Design Team will source stock assets to create your designs with, as needed."
+        },
+        {
+          "label": "Source Files"
+        },
+        {
+          "label": "Includes Print & Digital Designs"
+        },
+        {
+          "label": "Also Includes Custom Illustrations, GIFS",
+          "tip": "For designs that need to be created in Canva, just invite your Kimp Team to your Canva Account, and we'll take care of the rest!"
+        },
+        {
+          "label": "Also Includes Website, App and UI Designs",
+          "tip": "All UI designs except landing pages require a wireframe to be included in the design brief."
+        },
+        {
+          "label": "Also Includes Canva Designs"
+        },
+        {
+          "label": "Kimp360 Design Management"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "VIDEO",
+      "blurb": "Video designs and motion graphics to ramp up your content marketing.",
+      "features": [
+        {
+          "label": "Unlimited Requests"
+        },
+        {
+          "label": "Unlimited Revisions"
+        },
+        {
+          "label": "Unlimited Brands"
+        },
+        {
+          "label": "No Contract"
+        },
+        {
+          "label": "24 Hour Turnaround"
+        },
+        {
+          "label": "2 Active Requests",
+          "tip": "With one Kimp Video subscription your Dedicated Design Team will work on 2 of your design requests at any given time. You'll see these requests in the 'In Progress' step of the design workflow. Need faster turnarounds? Just add additional subscriptions."
+        },
+        {
+          "label": "Add Unlimited Team Members"
+        },
+        {
+          "label": "Dedicated Video Team"
+        },
+        {
+          "label": "Dedicated Project Manager"
+        },
+        {
+          "label": "Free Stock Images, Stock Videos, Stock Audio",
+          "tip": "Your Dedicated Design Team will source stock assets to create your designs with, as needed."
+        },
+        {
+          "label": "Source Files"
+        },
+        {
+          "label": "Kimp360 Design Management"
+        },
+        {
+          "label": "Includes Video Editing, Animation, Video Design, & Motion Graphics"
+        },
+        {
+          "label": "Also Includes GIFs"
+        },
+        {
+          "label": "Also Includes Template Customization"
+        },
+        {
+          "label": "Also Includes UI/UX Animations"
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "title": "Kimp Graphics",
+      "body": [
+        "is our power-packed graphic design subscription. Unlike other companies that provide multiple tiers of service and a very limited standard subscription, Kimp offers one graphic design subscription. And it includes ALL the designs you need, without having to pay extra premiums. From print and digital designs for your day to day marketing, to custom illustrations (including detailed brand mascots!), landing page designs, GIFS for unique campaigns AND website & app development to turn your designs into working products. We know that your design needs can evolve and vary and so we’ve created one subscription that’s versatile enough to handle everything you need."
+      ]
+    },
+    {
+      "title": "Kimp Video",
+      "body": [
+        "is our video design and motion graphics subscription. With Kimp Video you can get help enhancing your existing video footage or images, or we’ll design and animate from scratch for you! We provide this range of design and animation services as part of Kimp Video because we know that your video content needs will be dynamic, depending on whether you’re creating something for your website, an email campaign, social media, or something in between. And we’re prepared to deliver a wide range of videos to help you with that."
+      ]
+    },
+    {
+      "title": "Kimp Graphics + Video",
+      "body": [
+        "includes all the features of Kimp Graphics and all the features of Kimp Video, plus website & app development, for a discounted flat monthly fee!",
+        "And, with every Kimp subscription, you can invite as many additional team members as you’d like to help you make and manage design requests at no extra cost!"
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "label": "Amazon Graphics"
+    },
+    {
+      "label": "Advanced Infographics"
+    },
+    {
+      "label": "App Designs"
+    },
+    {
+      "label": "Background Removal"
+    },
+    {
+      "label": "Basic GIFs",
+      "tip": "Basic GIFs are simple animations, 2-3 seconds long, which are created in Photoshop and include text animations, flashing buttons, etc."
+    },
+    {
+      "label": "Billboards"
+    },
+    {
+      "label": "Blog Images"
+    },
+    {
+      "label": "Book Covers"
+    },
+    {
+      "label": "Book Layouts"
+    },
+    {
+      "label": "Booklets"
+    },
+    {
+      "label": "Brochures"
+    },
+    {
+      "label": "Business Cards"
+    },
+    {
+      "label": "Business Reports"
+    },
+    {
+      "label": "Characters & Mascots"
+    },
+    {
+      "label": "Company Profiles"
+    },
+    {
+      "label": "Corporate Folders"
+    },
+    {
+      "label": "Custom Illustrations"
+    },
+    {
+      "label": "Display Ads"
+    },
+    {
+      "label": "Ebook Covers"
+    },
+    {
+      "label": "Ebook Layouts"
+    },
+    {
+      "label": "Ecommerce Graphics"
+    },
+    {
+      "label": "EDM (Email Direct Mail)"
+    },
+    {
+      "label": "Email Signatures"
+    },
+    {
+      "label": "Event Invitations"
+    },
+    {
+      "label": "Flyers & Posters"
+    },
+    {
+      "label": "Icons"
+    },
+    {
+      "label": "Landing Pages"
+    },
+    {
+      "label": "Logos"
+    },
+    {
+      "label": "Magazine & Newspaper Ads"
+    },
+    {
+      "label": "Newsletters"
+    },
+    {
+      "label": "Packaging & Labels"
+    },
+    {
+      "label": "Podcast Covers"
+    },
+    {
+      "label": "Point Of Sale Materials"
+    },
+    {
+      "label": "PowerPoint Templates"
+    },
+    {
+      "label": "Presentation Decks"
+    },
+    {
+      "label": "Print Ads"
+    },
+    {
+      "label": "Product Mock-ups"
+    },
+    {
+      "label": "Promotional Materials"
+    },
+    {
+      "label": "Restaurant Menus"
+    },
+    {
+      "label": "Signage"
+    },
+    {
+      "label": "Simple Infographic"
+    },
+    {
+      "label": "Social Media Posts & Ads"
+    },
+    {
+      "label": "Stationery Sets"
+    },
+    {
+      "label": "T-shirt Design"
+    },
+    {
+      "label": "Tradeshow Banners"
+    },
+    {
+      "label": "UI Designs"
+    },
+    {
+      "label": "Vehicle Wraps"
+    },
+    {
+      "label": "Website Designs"
+    },
+    {
+      "label": "Web Ads"
+    },
+    {
+      "label": "And just about anything that can be designed in PS, AI, or INDD."
+    }
+  ],
+  "videos": [
+    {
+      "label": "Adding Thumbnails"
+    },
+    {
+      "label": "Animating Static Designs"
+    },
+    {
+      "label": "Basic & Advanced GIFs"
+    },
+    {
+      "label": "Cinemagraphs"
+    },
+    {
+      "label": "Combining/Editing Raw Footage"
+    },
+    {
+      "label": "Company Culture Videos"
+    },
+    {
+      "label": "Demo Videos"
+    },
+    {
+      "label": "Educational Videos"
+    },
+    {
+      "label": "FAQ Videos"
+    },
+    {
+      "label": "Logo Animations"
+    },
+    {
+      "label": "Product Highlight Videos"
+    },
+    {
+      "label": "Social Media Videos"
+    },
+    {
+      "label": "Testimonial Videos"
+    },
+    {
+      "label": "Text Overlays"
+    },
+    {
+      "label": "And More!"
+    }
+  ]
+}

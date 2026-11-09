@@ -1,0 +1,261 @@
+/*
+ * Legal pages (/privacy-policy/, /terms-of-services/, /cookie-policy-eu/,
+ * /llm-information-guidance/) only. Typography for the WordPress editor content
+ * rendered by rich-content.tsx, including the Complianz cookie statement
+ * (service dropdowns + cookie tables).
+ */
+.legal-prose {
+  color: color-mix(in oklab, var(--ink) 74%, transparent);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+.legal-prose > * + * {
+  margin-top: 1.1rem;
+}
+.legal-prose strong,
+.legal-prose b {
+  color: var(--ink);
+}
+
+/* section labels (bold paragraph titles on live) and <h2>s: jump targets of the outline */
+.legal-label,
+.legal-h2 {
+  display: block;
+  scroll-margin-top: 7rem;
+  color: var(--ink);
+}
+.legal-label {
+  margin-top: 1.4rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--border);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+.legal-prose > p:first-child > .legal-label:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+.legal-h2 {
+  margin-top: 3rem !important;
+  font-size: clamp(1.45rem, 1.2rem + 0.8vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.legal-prose > .legal-h2:first-child {
+  margin-top: 0 !important;
+}
+.legal-h3 {
+  color: var(--ink);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.legal-h4 {
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.legal-h5 {
+  color: color-mix(in oklab, var(--ink) 50%, transparent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.legal-subtitle {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.legal-ul,
+.legal-ol {
+  display: grid;
+  gap: 0.5rem;
+}
+.legal-ul > li {
+  position: relative;
+  padding-left: 1.4rem;
+}
+.legal-ul > li::before {
+  content: "";
+  position: absolute;
+  top: 0.72em;
+  left: 0.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: var(--brand);
+}
+.legal-ol {
+  list-style: decimal;
+  padding-left: 1.6rem;
+}
+.legal-ol > li::marker {
+  color: var(--brand);
+  font-weight: 700;
+}
+.legal-ol > li > p + p {
+  margin-top: 0.5rem;
+}
+
+/* tables (LLM guidance): the first row is the header row on live (plain <td>s) */
+.legal-table {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  background: #fff;
+}
+.legal-table table {
+  width: 100%;
+  min-width: 40rem;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  overflow-wrap: normal;
+}
+.legal-table td:first-child {
+  min-width: 7.5rem;
+}
+.legal-table td,
+.legal-table th {
+  padding: 0.8rem 1rem;
+  vertical-align: top;
+  text-align: left;
+  border-top: 1px solid var(--border);
+}
+.legal-table tr:first-child td,
+.legal-table th {
+  border-top: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Complianz: one dropdown per service */
+.legal-service {
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+}
+.legal-prose > .legal-service + .legal-service {
+  margin-top: 0.75rem;
+}
+.legal-service[open] {
+  box-shadow: 0 18px 40px -28px rgb(27 30 35 / 0.45);
+}
+.legal-service-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+.legal-service-head::-webkit-details-marker {
+  display: none;
+}
+.legal-service-head p {
+  margin-top: 0.15rem;
+  color: color-mix(in oklab, var(--ink) 55%, transparent);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.legal-service-chevron {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  transition: transform 0.25s ease;
+}
+.legal-service[open] .legal-service-chevron {
+  transform: rotate(180deg);
+}
+.legal-service-head:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 1.2rem;
+}
+.legal-service > div {
+  margin: 0 1.25rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+.legal-service > div:last-child {
+  padding-bottom: 1.25rem;
+}
+.legal-service-desc > * + *,
+.legal-sharing > * + * {
+  margin-top: 0.3rem;
+}
+
+/* cookies per purpose: label / value grid, one block per cookie */
+.legal-purposes {
+  display: grid;
+  grid-template-columns: minmax(0, 7.5rem) minmax(0, 1fr);
+  column-gap: 0;
+  row-gap: 0.25rem;
+  align-items: baseline;
+  line-height: 1.5;
+}
+.legal-purpose {
+  grid-column: 1 / -1;
+  margin-bottom: 0.25rem;
+}
+.legal-row-head,
+.legal-row {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--border);
+}
+.legal-purpose + .legal-row-head,
+.legal-purpose + .legal-row-head + .legal-row {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+.legal-row {
+  color: var(--ink);
+  font-weight: 600;
+}
+.legal-cell {
+  color: color-mix(in oklab, var(--ink) 70%, transparent);
+}
+
+/* outline (on this page) */
+.legal-toc a {
+  display: block;
+  border-left: 2px solid var(--border);
+  padding: 0.35rem 0 0.35rem 0.9rem;
+  color: color-mix(in oklab, var(--ink) 62%, transparent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.35;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+.legal-toc a:hover,
+.legal-toc a:focus-visible {
+  border-color: var(--brand);
+  color: var(--ink);
+}
+.legal-toc-mobile > summary {
+  list-style: none;
+}
+.legal-toc-mobile > summary::-webkit-details-marker {
+  display: none;
+}
+.legal-toc-mobile[open] .legal-service-chevron {
+  transform: rotate(180deg);
+}

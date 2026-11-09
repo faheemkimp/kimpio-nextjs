@@ -1,19 +1,79 @@
+import Image from "next/image";
 import Link from "next/link";
+import type { ReactNode } from "react";
 
 import { KimpLogo } from "@/components/brand/kimp-logo";
 import { FOOTER } from "@/content/home-sections";
 import { cn } from "@/lib/utils";
 
-/** Site footer: brand blurb, three link columns, legal line. */
-export function SiteFooter() {
+/**
+ * The one footer shell every page shares: a rounded ink panel with brand glows
+ * and the link columns + legal line in a glass card at the bottom. Pages that
+ * close on a call to action pass it as children so the CTA and the footer live
+ * in the same panel (and hide the standalone <SiteFooter> via <FooterGate>).
+ */
+export function FooterPanel({
+  children,
+  collab = false,
+}: {
+  children?: ReactNode;
+  /**
+   * Pages whose live footer is the older theme footer ("footer_new"): it carries an
+   * <h4>In Collaboration With</h4> + the YSpace logo, kept here for heading parity.
+   */
+  collab?: boolean;
+}) {
   return (
-    <footer className="bg-ink text-white/70">
-      <FooterLinks className="container-page py-16 sm:py-20" />
-      <div className="border-t border-white/10">
-        <FooterLegal className="container-page py-6" />
+    <footer className="relative px-2 pt-6 pb-6 sm:px-3 sm:pb-5">
+      <div data-fx="panel" className="relative isolate overflow-hidden rounded-[2rem] bg-ink text-white sm:rounded-[2.5rem]">
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10">
+          <div className="absolute -top-40 -left-24 size-[34rem] rounded-full bg-brand/35 blur-3xl" />
+          <div className="absolute -right-32 bottom-0 size-[30rem] rounded-full bg-[#7c69e8]/25 blur-3xl" />
+          {/* glossy ribbon drifting in parallax behind the mascot */}
+          <div
+            data-fx="parallax"
+            data-speed="0.5"
+            className="absolute top-[8%] -right-[12%] w-[70%] max-w-[56rem] opacity-90 sm:top-[4%] lg:-right-[6%] lg:w-[52%]"
+          >
+            <Image
+              src="/images/home/redesign/ribbon.webp"
+              alt=""
+              width={1200}
+              height={800}
+              sizes="(min-width: 1024px) 50vw, 70vw"
+              className="w-full"
+            />
+          </div>
+        </div>
+
+        {children ?? <div aria-hidden="true" className="h-10 sm:h-16" />}
+
+        {/* footer links: a glass card inside the same panel */}
+        <div className="container-page relative">
+          <div data-fx="reveal" className="rounded-[1.75rem] bg-white/[0.04] p-6 ring-1 ring-white/10 backdrop-blur-sm sm:p-10">
+            <FooterLinks />
+            {collab && (
+              <div className="mt-10 flex flex-wrap items-center gap-4 border-t border-white/10 pt-6">
+                <h4 className="text-sm font-bold tracking-[0.14em] text-white uppercase">In Collaboration With</h4>
+                <a href="https://yspace.yorku.ca/" target="_blank" rel="noopener" className="inline-flex rounded-xl bg-white px-3 py-2">
+                  <Image src="/images/footer/footer_yspace.png" alt="footer_yspace" width={240} height={70} className="h-8 w-auto" />
+                </a>
+              </div>
+            )}
+            <FooterLegal className="mt-10 border-t border-white/10 pt-6" />
+          </div>
+        </div>
+
+        {/* breathing room below the footer card */}
+        <div aria-hidden="true" className="h-10 sm:h-16" />
       </div>
     </footer>
   );
+}
+
+/** Standalone footer for pages without their own closing CTA panel. */
+export function SiteFooter() {
+  return <FooterPanel />;
 }
 
 /** Brand blurb + social pills + link columns. Reused inside the homepage closing panel. */

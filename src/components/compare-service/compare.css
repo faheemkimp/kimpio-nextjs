@@ -1,0 +1,41 @@
+/*
+ * /compare-service/ only. Testimonial marquee: each track holds its quotes twice
+ * and slides by half its width, so the loop is seamless. Pauses on hover/focus;
+ * under reduced motion the rows become plain horizontally scrollable lists.
+ */
+.cs-mq {
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  /* The mask clips at the box edge: room for the cards' ring + drop shadow, spacing unchanged. */
+  padding-block: 0.5rem 2.5rem;
+  margin-block: -0.5rem -2.5rem;
+}
+.cs-mq-track {
+  display: flex;
+  width: max-content;
+  gap: 1.25rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .cs-mq-track {
+    animation: cs-mq var(--cs-mq-dur, 60s) linear infinite;
+  }
+  .cs-mq-track[data-reverse] {
+    animation-direction: reverse;
+  }
+  .cs-mq:hover .cs-mq-track,
+  .cs-mq:focus-within .cs-mq-track {
+    animation-play-state: paused;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cs-mq {
+    overflow-x: auto;
+  }
+  .cs-mq-dup {
+    display: none;
+  }
+}
+@keyframes cs-mq {
+  to {
+    transform: translateX(calc(-50% - 0.625rem));
+  }
+}

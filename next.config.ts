@@ -39,6 +39,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "secure.gravatar.com" },
     ],
     formats: ["image/avif", "image/webp"],
+    // 90 for the hero mascot renders (fine fur/visor detail); 75 stays the default.
+    qualities: [75, 90],
   },
 
   async headers() {

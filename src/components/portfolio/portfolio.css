@@ -1,0 +1,35 @@
+/*
+ * /our-work/ slider cards: hover auto-scroll, as on the live kimp.io portfolio.
+ * Tall art pans top to bottom at a constant speed, back and forth, while
+ * hovered, and pauses where it is on leave; wide art is shown whole instead. --pan-from/--pan-to/--pan-dur are set per card
+ * once the image has loaded (see curved-showcase.tsx).
+ */
+@keyframes ow-pan {
+  from {
+    object-position: var(--pan-from);
+  }
+  to {
+    object-position: var(--pan-to);
+  }
+}
+
+.ow-pan {
+  object-position: var(--pan-from, 50% 0%);
+}
+
+/* Wide art: whole and unscaled-up over its blurred backdrop (see setupPan). */
+.ow-pan[data-fit="contain"] {
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ow-pan[data-pan] {
+    animation: ow-pan var(--pan-dur, 6s) linear infinite alternate;
+    animation-play-state: paused;
+  }
+  .ow-card:hover .ow-pan[data-pan],
+  .ow-card:focus-visible .ow-pan[data-pan] {
+    animation-play-state: running;
+  }
+}

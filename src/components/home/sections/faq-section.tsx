@@ -12,7 +12,7 @@ import { SectionHeading } from "./section-heading";
  */
 export function FaqSection() {
   return (
-    <section aria-labelledby="faq-title" className="relative isolate overflow-hidden bg-surface py-24 sm:py-32">
+    <section aria-labelledby="faq-title" className="relative isolate overflow-clip bg-surface py-24 sm:py-32">
       <div className="container-page grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-16">
         <div className="lg:sticky lg:top-28 lg:self-start">
           <SectionHeading id="faq-title" eyebrow={FAQ.eyebrow} title={FAQ.title} intro={FAQ.intro} align="left" />
@@ -44,7 +44,6 @@ export function FaqSection() {
             <details
               key={item.q}
               name="home-faq"
-              open={i === 0}
               className="group rounded-[1.4rem] bg-white ring-1 ring-border transition-[box-shadow] open:shadow-[0_24px_44px_-30px_rgb(27_30_35/0.4)] open:ring-brand/30"
             >
               <summary className="flex cursor-pointer list-none items-center gap-4 rounded-2xl px-6 py-5 text-left text-lg font-bold text-ink marker:hidden [&::-webkit-details-marker]:hidden">

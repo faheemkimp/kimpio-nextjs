@@ -46,14 +46,16 @@ export const LAYOUT = {
   customer: { kind: "rect", x: 40, y: 290, w: 120, d: 120, r: 18 } as RectShape,
   designer: { kind: "rect", x: 300, y: 40, w: 120, d: 110, r: 18 } as RectShape,
   review: { kind: "rect", x: 310, y: 300, w: 100, d: 100, r: 18 } as RectShape,
-  hub: { kind: "circle", cx: 230, cy: 230, r: 60 } as CircleShape,
+  // r 60 -> 68 (+13%) so the hub reads as a stage for the mascot.
+  hub: { kind: "circle", cx: 230, cy: 230, r: 68 } as CircleShape,
   hubH: 24,
   junction: { x: 115, y: 200 },
+  // Pushed ~10% further out from the hub (up and outward on screen) to give the mascot room.
   socialTiles: [
-    { x: 39, y: 171 },
-    { x: 41, y: 99 },
-    { x: 79, y: 51 },
-    { x: 153, y: 43 },
+    { x: 21, y: 165 },
+    { x: 22, y: 86 },
+    { x: 64, y: 33 },
+    { x: 145, y: 24 },
   ],
 };
 

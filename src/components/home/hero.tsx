@@ -1,4 +1,4 @@
-import { Check, Sparkles } from "lucide-react";
+import { Check } from "lucide-react";
 
 import { CtaLink } from "@/components/ui/cta-button";
 import { CLIENT_LOGOS, HERO } from "@/content/home";
@@ -24,7 +24,6 @@ export function Hero() {
     eyebrow,
     headline,
     intro,
-    introOffer,
     primaryCta,
     video,
     features,
@@ -36,23 +35,21 @@ export function Hero() {
       // Pulled up by the header height so the sticky nav sits inside the framed box.
       className="relative -mt-18 p-2 sm:p-3"
     >
-      {/* Rounded frame: nav + hero + logos share one box, with a travelling light on the border */}
+      {/* Rounded frame: nav + hero + logos share one box */}
       <div className="hero-frame relative isolate rounded-[1.75rem] sm:rounded-[2.5rem]">
-      <div className="relative overflow-hidden rounded-[inherit] pt-24 sm:pt-31">
+      <div className="relative overflow-hidden rounded-[inherit] pt-26 sm:pt-34">
         <div className="container-page relative">
           <div className="grid items-center gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:gap-10">
             {/* Left: hero copy */}
             <div className="relative z-10 max-w-2xl text-left">
-              <p className="mb-6 inline-flex flex-wrap items-center gap-x-2.5 gap-y-1 rounded-full border border-white/15 bg-white/10 py-1.5 pr-4 pl-1.5 text-[0.6875rem] font-bold tracking-[0.1em] text-teal-100 uppercase backdrop-blur sm:text-xs">
-                <span className="grid size-6 place-items-center rounded-full bg-white/15 text-white">
-                  <Sparkles className="size-3.5" aria-hidden="true" />
-                </span>
+              {/* Plain text eyebrow (no pill) so it doesn't echo the nav strip above it */}
+              <p className="mb-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.625rem] font-semibold tracking-[0.16em] text-teal-100/70 uppercase sm:text-[0.6875rem]">
                 {eyebrow.map((item, i) => (
-                  <span key={item} className="flex items-center gap-2.5">
+                  <span key={item} className="flex items-center gap-2">
                     {i > 0 && (
                       <span
                         aria-hidden="true"
-                        className="size-1 rounded-full bg-white/40"
+                        className="size-[3px] rounded-full bg-brand"
                       />
                     )}
                     {item}
@@ -69,17 +66,9 @@ export function Hero() {
                 </span>
               </h1>
 
-              <div className="mt-6 max-w-xl space-y-4">
-                <p className="text-lg leading-relaxed text-white/75 sm:text-xl">
-                  {intro}
-                </p>
-                <p className="text-lg leading-relaxed text-white/90 sm:text-xl">
-                  {introOffer.lead}{" "}
-                  <strong className="font-semibold text-white">
-                    {introOffer.strong}
-                  </strong>
-                </p>
-              </div>
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75 sm:text-xl">
+                {intro}
+              </p>
 
               <div className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
                 <CtaLink href={primaryCta.href} size="lg">
@@ -113,7 +102,7 @@ export function Hero() {
         </div>
 
         {/* Trusted-by logos (live section "clientLogoNewSection") */}
-        <div className="relative z-10 mt-12 pt-20 pb-10 lg:-mt-10">
+        <div className="relative z-10 mt-12 pt-20 pb-12 lg:-mt-8">
           <h2 className="container-page text-center text-sm font-semibold tracking-wide text-white/85 sm:text-base">
             {CLIENT_LOGOS.title}
           </h2>

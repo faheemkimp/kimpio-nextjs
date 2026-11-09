@@ -368,6 +368,18 @@ export const REVIEWS = {
   ],
 } as const;
 
+/** Posts themselves come from WordPress at render (see getLatestBlogPosts). */
+export const BLOG = {
+  eyebrow: "From the KIMP blog",
+  title: "Fresh ideas. Every week.",
+  intro: "Design, marketing and AI: practical guides, brand breakdowns and weekly picks from the KIMP team.",
+  count: 9,
+  /** "Kimp 360 Product" updates live on /kimp360-product-updates/. */
+  excludeCategories: [2217],
+  more: "Read article",
+  cta: { label: "Visit the blog", href: "/blog/" },
+} as const;
+
 export const FAQ = {
   eyebrow: "Questions, answered",
   title: "FAQs",

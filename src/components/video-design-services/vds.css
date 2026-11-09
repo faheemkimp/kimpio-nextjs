@@ -1,0 +1,58 @@
+/*
+ * /video-design-services/ only (stage + card motion; gds.css provides the
+ * shared bento tiles). The resting state is the final state, so reduced
+ * motion shows a complete, static page.
+ */
+
+/* resting: playhead parked, waveform at mid height */
+.vds-playhead {
+  left: 48%;
+}
+.vds-wave {
+  height: 45%;
+}
+.vds-wave:nth-child(3n) {
+  height: 80%;
+}
+.vds-wave:nth-child(4n + 1) {
+  height: 30%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* "recording" dot on playing cards and the edit timecode */
+  .vds-rec {
+    animation: vds-rec 1.2s ease-in-out infinite;
+  }
+
+  .story-screen[data-active="true"] {
+    & .vds-playhead {
+      animation: vds-playhead 6s 0.4s linear infinite;
+    }
+    & .vds-wave {
+      animation: vds-wave 0.9s ease-in-out infinite alternate;
+      animation-delay: calc(var(--i, 0) * -0.11s);
+    }
+  }
+}
+
+@keyframes vds-rec {
+  50% {
+    opacity: 0.25;
+  }
+}
+@keyframes vds-playhead {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes vds-wave {
+  from {
+    height: 20%;
+  }
+  to {
+    height: 95%;
+  }
+}

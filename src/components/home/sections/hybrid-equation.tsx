@@ -78,6 +78,19 @@ const KIMP_FLOW: Flow = {
   },
 };
 
+/** Renders `text` with the first `phrase` picked out in brand colour (text itself unchanged). */
+function Highlight({ text, phrase }: { text: string; phrase: string }) {
+  const at = text.indexOf(phrase);
+  if (at === -1) return text;
+  return (
+    <>
+      {text.slice(0, at)}
+      <strong className="font-bold text-brand">{phrase}</strong>
+      {text.slice(at + phrase.length)}
+    </>
+  );
+}
+
 /**
  * "AI alone isn't enough": [AI-only] + [Traditional] = [KIMP]. On large
  * screens the two half-answers slide in from the sides as you scroll and
@@ -90,19 +103,31 @@ export function HybridEquation() {
       <div aria-hidden="true" className="fx-dots pointer-events-none absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,#000_30%,#000_70%,transparent)]" />
 
       <div className="container-page">
-        <SectionHeading id="hybrid-title" eyebrow={HYBRID.eyebrow} title={HYBRID.title} intro={HYBRID.intro} />
+        {/* Title runs full width on two lines (claim / counter-claim); problem and answer sit side by side below. */}
+        <SectionHeading
+          id="hybrid-title"
+          eyebrow={HYBRID.eyebrow}
+          title={HYBRID.title}
+          align="left"
+          className="max-w-none"
+          // The softened second sentence is the h2's last child span: start it on its own line.
+          titleClassName="[&>span:last-child]:block"
+        />
 
-        <p
-          data-fx="reveal"
-          className="mt-10 flex max-w-4xl gap-4 rounded-[1.4rem] bg-white p-5 text-lg leading-relaxed font-semibold text-ink shadow-[0_10px_30px_-20px_rgb(27_30_35/0.35)] ring-1 ring-border sm:p-6"
-        >
-          <span aria-hidden="true" className="grid size-10 shrink-0 place-items-center rounded-xl bg-brand text-white">
-            <Sparkles className="size-5" />
-          </span>
-          {HYBRID.answer}
-        </p>
+        <div data-fx="reveal" data-delay="0.15" className="mt-8 grid gap-6 sm:mt-10 lg:grid-cols-2 lg:gap-12">
+          <div>
+            <p className="text-xs font-bold tracking-[0.14em] text-slate-brand uppercase">The problem</p>
+            <p className="mt-2 text-base leading-relaxed text-muted-foreground sm:text-[1.05rem]">{HYBRID.intro}</p>
+          </div>
+          <div className="border-l-2 border-brand pl-5">
+            <p className="text-xs font-bold tracking-[0.14em] text-brand uppercase">KIMP&apos;s answer</p>
+            <p className="mt-2 text-base leading-relaxed font-medium text-ink sm:text-[1.05rem]">
+              <Highlight text={HYBRID.answer} phrase="your creative department" />
+            </p>
+          </div>
+        </div>
 
-        <div className="mt-16 grid items-stretch gap-4 lg:mt-36 lg:grid-cols-[1fr_auto_1fr_auto_1.2fr] lg:gap-4">
+        <div className="mt-14 grid items-stretch gap-4 lg:mt-32 lg:grid-cols-[1fr_auto_1fr_auto_1.2fr] lg:gap-4">
           {HYBRID.options.map((opt, i) => {
             const { icon: Icon, flow } = OPTION_META[i];
             return (

@@ -5,7 +5,7 @@ import { Grooves } from "./parts/Board";
 import { SocialCopy, TaskCard } from "./parts/TaskCard";
 import { CustomerStation } from "./stations/CustomerStation";
 import { DesignerStation } from "./stations/DesignerStation";
-import { HubPopup, Kimp360Hub } from "./stations/Kimp360Hub";
+import { HubMascot, HubPopup, Kimp360Hub } from "./stations/Kimp360Hub";
 import { ReviewStation } from "./stations/ReviewStation";
 import { SOCIAL_ICON_Z, SocialCluster } from "./stations/SocialCluster";
 
@@ -59,6 +59,8 @@ export function WorkflowScene({ platforms, showSocial }: SceneProps) {
           })}
       </g>
 
+      {/* before the task card so the card (and the popup) pass in front of the mascot */}
+      <HubMascot />
       <TaskCard />
       {showSocial && platforms.map((p, i) => <SocialCopy key={p} i={i} />)}
       <HubPopup />

@@ -1,0 +1,387 @@
+/*
+ * /graphic-design-services/ only. Decorative motion; the resting state is the
+ * final state, so reduced motion shows a complete, static page.
+ *
+ * Service-tab bento animations are scoped to the ACTIVE stage
+ * (.story-screen[data-active="true"]), so they replay every time a tab opens.
+ */
+
+/* ---------- service tabs: auto-advance progress bar ---------- */
+.gds-progress {
+  transform-origin: left;
+  animation-name: gds-progress;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes gds-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- bento resting states (also the reduced-motion view) ---------- */
+.gds-ring {
+  stroke-dasharray: 163.4;
+  stroke-dashoffset: 19.6; /* 88% */
+}
+.gds-typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 19ch;
+}
+.gds-role:first-child {
+  background: #fff1e7;
+  color: #1b1e23;
+}
+.gds-ticker > li:not(:last-child) {
+  display: none;
+}
+.gds-blip {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .story-screen[data-active="true"] {
+    /* tiles rise in, one after another */
+    & .gds-tile {
+      animation: gds-tile 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+      animation-delay: calc(var(--i, 0) * 0.1s + 0.1s);
+    }
+    /* small items pop in */
+    & .gds-pop {
+      animation: gds-pop 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+      animation-delay: calc(var(--i, 0) * 0.12s + 0.3s);
+    }
+    /* "online" dots ping */
+    & .gds-ping {
+      animation: gds-ping 2s ease-out infinite;
+      animation-delay: calc(var(--i, 0) * 0.4s);
+    }
+    & .gds-live {
+      animation: gds-live 1.6s ease-in-out infinite;
+    }
+    /* familiarity ring fills */
+    & .gds-ring {
+      animation: gds-ring 1.6s 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+    /* email types itself, the caret blinks, then Invite presses and "sent" appears */
+    & .gds-typing {
+      animation: gds-type 1.8s 0.5s steps(19) both;
+    }
+    & .gds-caret {
+      animation: gds-caret 0.8s steps(1) infinite;
+    }
+    & .gds-send {
+      animation: gds-press 0.35s 2.4s ease-in-out both;
+    }
+    & .gds-sent {
+      animation: gds-pop 0.5s 2.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+    /* access roles take turns being selected */
+    & .gds-role {
+      animation: gds-role 4.5s ease-in-out infinite;
+      animation-delay: calc(var(--i, 0) * 1.5s);
+    }
+    & .gds-role:first-child {
+      background: none;
+      color: inherit;
+    }
+    /* tickers count up and stop on the last line */
+    & .gds-ticker > li:not(:last-child) {
+      display: list-item;
+    }
+    & .gds-ticker {
+      animation: gds-ticker 3s 0.6s steps(1) both;
+    }
+    /* work samples cross-fade */
+    & .gds-swap {
+      animation: gds-swap 7.5s ease-in-out infinite;
+      animation-delay: calc(var(--i, 0) * 2.5s);
+    }
+    /* categories roll past */
+    & .gds-scroll {
+      animation: gds-scroll 9s linear infinite;
+    }
+    /* chat: typing dots appear, hold, then collapse as the reply arrives */
+    & .gds-blip {
+      animation: gds-blip 1.7s 0.6s ease-in-out both;
+    }
+    /* weekday bars grow */
+    & .gds-grow {
+      transform-origin: bottom;
+      animation: gds-grow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+      animation-delay: calc(var(--i, 0) * 0.08s + 0.4s);
+    }
+  }
+}
+
+@keyframes gds-tile {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+  }
+}
+@keyframes gds-pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+}
+@keyframes gds-ping {
+  0% {
+    box-shadow: 0 0 0 0 rgb(52 211 153 / 0.6);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 7px rgb(52 211 153 / 0);
+  }
+}
+@keyframes gds-live {
+  50% {
+    opacity: 0.3;
+  }
+}
+@keyframes gds-ring {
+  from {
+    stroke-dashoffset: 163.4;
+  }
+}
+@keyframes gds-type {
+  from {
+    width: 0;
+  }
+}
+@keyframes gds-caret {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes gds-press {
+  50% {
+    transform: scale(0.92);
+    filter: brightness(1.1);
+  }
+}
+@keyframes gds-role {
+  0%,
+  28% {
+    background: #fff1e7;
+    color: #1b1e23;
+    transform: translateX(4px);
+  }
+  34%,
+  100% {
+    background: transparent;
+    transform: none;
+  }
+}
+@keyframes gds-ticker {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  75%,
+  100% {
+    transform: translateY(-75%);
+  }
+}
+@keyframes gds-swap {
+  0%,
+  30% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  36%,
+  94% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes gds-scroll {
+  to {
+    transform: translateY(-50%);
+  }
+}
+@keyframes gds-blip {
+  0% {
+    opacity: 0;
+    max-height: 3rem;
+  }
+  15%,
+  80% {
+    opacity: 1;
+    max-height: 3rem;
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+  }
+}
+@keyframes gds-grow {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+/* ---------- What We Do: chips that don't match the search fade back ---------- */
+
+/* ---------- Team org chart: avatars pulse ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .gds-pulse {
+    animation: gds-pulse 2.4s ease-in-out infinite;
+    animation-delay: var(--d, 0s);
+  }
+}
+@keyframes gds-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(241 115 30 / 0.35);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 10px rgb(241 115 30 / 0);
+  }
+}
+/* ---------- Team org chart: briefs routed PM -> designer -> brand (7.5s loop, 2.5s per designer) ---------- */
+.gds-ticket,
+.gds-toast,
+.gds-work-done {
+  opacity: 0;
+}
+.gds-ticket {
+  translate: -50% 0;
+}
+.gds-work-bar {
+  width: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .gds-ticket,
+  .gds-toast,
+  .gds-work,
+  .gds-work-bar,
+  .gds-work-done {
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-delay: var(--d, 0s);
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+  }
+  .gds-ticket {
+    animation-name: gds-ticket;
+  }
+  .gds-toast {
+    animation-name: gds-toast;
+  }
+  .gds-work {
+    animation-name: gds-work;
+  }
+  .gds-work-bar {
+    animation-name: gds-work-bar;
+    animation-timing-function: linear;
+  }
+  .gds-work-done {
+    animation-name: gds-work-done;
+  }
+}
+@keyframes gds-ticket {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  3%,
+  6% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  9%,
+  100% {
+    opacity: 0;
+    transform: translateY(16px) scale(0.85);
+  }
+}
+@keyframes gds-work {
+  0%,
+  15%,
+  38%,
+  100% {
+    transform: translateY(0);
+    /* matches the card's ring-1 ring-ink/5, which this animation overrides */
+    box-shadow: 0 0 0 1px rgb(27 30 35 / 0.05), 0 0 0 0 transparent;
+  }
+  18%,
+  34% {
+    transform: translateY(-4px);
+    box-shadow: 0 0 0 2px var(--tint), 0 22px 36px -24px var(--tint);
+  }
+}
+@keyframes gds-work-bar {
+  0%,
+  17% {
+    width: 0;
+    opacity: 1;
+  }
+  31%,
+  35% {
+    width: 100%;
+    opacity: 1;
+  }
+  38%,
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+@keyframes gds-work-done {
+  0%,
+  30% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  33%,
+  37% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40%,
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+@keyframes gds-toast {
+  0%,
+  32% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  35%,
+  45% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  49%,
+  100% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gds-progress {
+    display: none;
+  }
+}

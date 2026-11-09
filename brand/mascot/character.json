@@ -1,0 +1,25 @@
+{
+  "name": "Kimp Hero",
+  "master": "public/images/mascot/fly-hero.webp",
+  "masterSource": "public/Flying-Monkey-Superhero-Mascot.png",
+  "masterSourceNote": "Lossless original of the master. Composites are built from this, never from the lossy .webp, so nothing gets re-compressed.",
+  "masterSize": [1448, 1086],
+  "locked": [
+    "adult superhero chimpanzee, early thirties, adult proportions (not a child, no big cartoon head)",
+    "brown swept-up hair, short trimmed brown beard, peach face and ears, calm closed-mouth smile",
+    "yellow visor with red rim covering the eyes",
+    "muscular build, golden-yellow suit with fine panel lines, cream 'K' chest badge, cream centre stripe",
+    "cream/gold collar ring, gold cuffs, gold belt with 'K' buckle, cream knee pads, golden boots",
+    "deep-red opaque cape (#c8202b, darker red folds, orange-red tips) streaming left",
+    "flying up and to the RIGHT, right fist punched up, left fist at chest, legs trailing down-left",
+    "glossy 3D render style, transparent background"
+  ],
+  "propAnchor": {
+    "note": "Centre of the free left fist in master pixels. Page props are composited here so he appears to hold them.",
+    "x": 560,
+    "y": 540
+  },
+  "fistBox": [495, 455, 625, 605],
+  "fistBoxNote": "Master-pixel box around the free left fist [x0, y0, x1, y1]. Grip props (a pole) get his fingers re-drawn on top from this area, so he wraps them.",
+  "propPrompt": "A single isolated object, centred, seen slightly from the front, filling most of the frame. Glossy, high-quality 3D render in the same style as a polished Pixar-like mascot illustration: soft studio lighting from the upper right, smooth rounded edges, warm saturated colours. Transparent background. No character, no hands, no people, no shadow, no glow, no text, no letters, no logos."
+}

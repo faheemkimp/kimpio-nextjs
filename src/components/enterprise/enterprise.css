@@ -1,0 +1,39 @@
+/* /enterprise-clients/ only. */
+
+/* Design-sample strip: two copies of the list slide left forever (the live banner marquee). */
+@keyframes ent-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.ent-marquee {
+  animation: ent-marquee 60s linear infinite;
+}
+.ent-marquee-wrap:hover .ent-marquee {
+  animation-play-state: paused;
+}
+
+/* Presentations strip inside its service card. */
+@keyframes ent-strip {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.ent-strip {
+  animation: ent-strip 30s linear infinite;
+}
+
+/* Case-study rail: horizontal scroll-snap, scrollbar hidden. */
+.ent-rail {
+  scrollbar-width: none;
+}
+.ent-rail::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ent-marquee,
+  .ent-strip {
+    animation: none;
+  }
+}

@@ -1,0 +1,68 @@
+/*
+ * /kimp360-platform/ only. Decorative motion; resting state is the final
+ * state, so reduced motion shows a complete, static page.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  /* feature status chips bob gently */
+  .k360-chip {
+    animation: k360-bob 4.5s ease-in-out infinite;
+  }
+  /* feedback pins drop in, one after another, on a loop */
+  .k360-pin {
+    animation: k360-pin 6s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+    animation-delay: calc(var(--i, 0) * 0.9s);
+  }
+  /* the cursor travels to each pin before it lands */
+  .k360-cursor {
+    animation: k360-cursor 6s ease-in-out infinite;
+  }
+  .k360-live {
+    animation: k360-live 1.6s ease-in-out infinite;
+  }
+}
+
+@keyframes k360-bob {
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes k360-pin {
+  0%,
+  8% {
+    opacity: 0;
+    transform: translateY(-14px) scale(0.6);
+  }
+  16%,
+  85% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes k360-cursor {
+  0% {
+    transform: translate(-40px, 30px);
+  }
+  15% {
+    transform: translate(-28px, -40px);
+  }
+  35% {
+    transform: translate(-28px, -40px);
+  }
+  50% {
+    transform: translate(70px, 50px);
+  }
+  85% {
+    transform: translate(70px, 50px);
+  }
+  100% {
+    transform: translate(-40px, 30px);
+  }
+}
+@keyframes k360-live {
+  50% {
+    opacity: 0.3;
+  }
+}

@@ -60,9 +60,12 @@ export function playClickSound(): void {
   tone(ac, t + 0.055, 990, 1480, 0.08, 0.05);
 }
 
-/** Soft, very short "tick" for hovering a button (menu-select sound in games). */
+/** Hover "tick" loudness (0-1 gain). Was 0.03; raised on request so it is clearly audible. */
+const HOVER_VOLUME = 0.25;
+
+/** Short "tick" for hovering a button (menu-select sound in games). */
 export function playHoverSound(): void {
   const ac = ready();
   if (!ac) return; // still locked: the visitor hasn't clicked/tapped yet
-  tone(ac, ac.currentTime, 1100, 1500, 0.045, 0.03, "triangle");
+  tone(ac, ac.currentTime, 1100, 1500, 0.045, HOVER_VOLUME, "triangle");
 }

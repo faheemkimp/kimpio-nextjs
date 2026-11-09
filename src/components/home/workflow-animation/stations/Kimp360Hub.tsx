@@ -5,7 +5,7 @@ import { Avatar } from "../parts/Avatar";
 
 const H = LAYOUT.hub;
 const TOP = LAYOUT.hubH;
-const RING_R = 53;
+const RING_R = 60;
 /** Teal family from the original ring, lifted for a holographic glow. */
 const HOLO = { base: BRAND.teal, bright: "#19B79A", glint: "#9FF5E2" };
 
@@ -66,6 +66,40 @@ function HoloBeam() {
   );
 }
 
+/** Flying mascot (hub-fly.webp, 720×535) hovering above the hub. */
+const MASCOT_SRC = "/images/mascot/hub-fly.webp";
+const MASCOT_W = 215;
+const MASCOT_H = (MASCOT_W * 535) / 720;
+/** Gap between his boots and the disc top (screen px). */
+const MASCOT_LIFT = 12;
+
+/**
+ * Rendered by the scene just before the travelling task card (not inside the hub group),
+ * so the card and popup pass in front of him. Rises in with the stations.
+ */
+export function HubMascot() {
+  const c = iso(H.cx, H.cy, TOP);
+  const x = c.x - MASCOT_W / 2 - 14;
+  const y = c.y - MASCOT_LIFT - MASCOT_H;
+  return (
+    <g data-hub-mascot data-rise="station" pointerEvents="none">
+      <defs>
+        <filter id="wf-mascot-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#FFB547" floodOpacity="0.35" />
+        </filter>
+        <filter id="wf-mascot-shadow-blur" x="-20%" y="-50%" width="140%" height="200%">
+          <feGaussianBlur stdDeviation="3.5" />
+        </filter>
+      </defs>
+      {/* soft shadow on the disc; he's in the air, so it's wide and faint */}
+      <ellipse cx={c.x} cy={c.y} rx={46} ry={11} fill="#021f1c" opacity={0.4} filter="url(#wf-mascot-shadow-blur)" />
+      <g className="hub-mascot-float">
+        <image href={MASCOT_SRC} x={x} y={y} width={MASCOT_W} height={MASCOT_H} filter="url(#wf-mascot-glow)" />
+      </g>
+    </g>
+  );
+}
+
 /** Central Kimp 360 pedestal: rotating ring, printed logo, glow + flash. */
 export function Kimp360Hub() {
   return (
@@ -76,7 +110,7 @@ export function Kimp360Hub() {
         z1={TOP}
         top={
           <g>
-            <circle cx={H.cx} cy={H.cy} r={47} fill="#073E36" stroke="#1C7A6A" strokeOpacity={0.6} strokeWidth={2} />
+            <circle cx={H.cx} cy={H.cy} r={53} fill="#073E36" stroke="#1C7A6A" strokeOpacity={0.6} strokeWidth={2} />
             {/* holographic emitter ring */}
             <linearGradient
               id="wf-holo-sweep"

@@ -1,0 +1,120 @@
+[
+  {
+    "q": "Will there be any hidden fees?",
+    "a": [
+      "There are no hidden fees at all. You will only pay the flat fee on a monthly basis. All taxes and other fees are included in the flat fee."
+    ]
+  },
+  {
+    "q": "Which method of payment can I use?",
+    "a": [
+      "At the moment we exclusively accept credit cards as a method of payment. This means we do not accept cash, cheques, money transfers, or Paypal as methods of payment. Feel free to contact us on our live chat at www.kimp.io if you have any questions about payments."
+    ]
+  },
+  {
+    "q": "Am I in a long-term contract with you?",
+    "a": [
+      "No. We offer a monthly membership so that at any time you wish to cancel, you can do so hassle-free."
+    ]
+  },
+  {
+    "q": "Do you have different tiers of service?",
+    "a": [
+      "At Kimp we aim to keep things simple. That's why we have one graphic design subscription - Kimp Graphics - and one video design subscription - Kimp Video. And one subscription which combines both - Kimp Graphics+Video.",
+      "Whichever subscription you choose, start with a free trial and invite as many team members as you'd like to help you make design requests. You won't pay any extra premiums for custom illustrations, landing pages, or GIFs with a Kimp Graphics subscription. And no extra fees for custom design and animation with a Kimp Video subscription.",
+      "You get it all with your flat monthly fee."
+    ]
+  },
+  {
+    "q": "Can I get a discount if I get multiple subscriptions?",
+    "a": [
+      "Absolutely. We offer a 10% discount when you add 2 more subscriptions to your account. Just keep in mind that this offer cannot be combined with any other promotional offers.",
+      {
+        "p": [
+          "When you're ready to add your additional subscriptions and get your discounts applied, please ",
+          {
+            "label": "click here",
+            "href": "#"
+          },
+          " to connect with a Kimp Team Member on the live chat."
+        ]
+      }
+    ]
+  },
+  {
+    "q": "How many tasks will my team work on each day?",
+    "a": [
+      "As part of the Kimp Graphics subscription or the Kimp Video subscription, your Dedicated Design Team will have 2 tasks in progress for you at any given time, and they will allocate 2-2.5 hours each business day to completing your requests.",
+      "With the Graphics + Video subscription, your Dedicated Design Team will have 2 graphic design requests and 2 video requests in progress at any given time. This means that they will allocate 2-2.5 hours each business day to your graphic design requests and 2-2.5 hours each business day to your video design requests.",
+      "Now if you need a higher volume of outputs, and faster turnarounds, you can add on additional subscriptions. And this will mean that with each additional Kimp Graphics or Kimp Video subscription, you’ll get an additional 2-2.5 hours allocated to completing your requests (e.g. with 2 subscriptions you’ll get 4-5 hours allocated to your requests, and so forth).",
+      "In the case of Kimp Graphics+Video subscriptions, with each additional subscription, you’ll get an additional 2-2.5 hours allocated to your graphic design requests AND an additional 2-2.5 hours allocated to your video design requests.",
+      "As your team completes tasks you’ll see them shift from being “In Progress” to “In Review” and you’ll see new requests getting started."
+    ]
+  },
+  {
+    "q": "What does my billing cycle look like and when will I be billed?",
+    "a": [
+      "We maintain a 30-day cycle for billing. As long as you maintain an active subscription, you will be billed on a recurring basis, on the same day that your full subscription began. If you want more information on this, or if you wish to clarify any details, please reach out via our live chat at www.kimp.io."
+    ]
+  },
+  {
+    "q": "Why is my billing on a monthly basis?",
+    "a": [
+      "We maintain a 30-day cycle for billing. As long as you maintain an active subscription, you will be billed on a recurring basis, on the same day that your full subscription began. If you want more information on this, or if you wish to clarify any details, please reach out via our live chat at www.kimp.io."
+    ]
+  },
+  {
+    "q": "How hard is it to cancel the subscription?",
+    "a": [
+      "Not hard at all. We keep things simple at Kimp. No documentation or extensive process. You can cancel at any point in time. Just log in to your Kimp account, and you can cancel with just a few clicks. Need a hand with this? No worries. You can request assistance via the live chat at www.kimp.io. You can also request assistance from your dedicated Project Manager. There is only one thing that we will ask: “What could we have done better?” We ask, because we value your feedback.",
+      {
+        "p": [
+          "Just need a temporary break? But still want access to your Trello board, to remain assigned to the same dedicated design team, and to lock in the existing subscription price regardless of service updates? Consider ",
+          {
+            "label": "pausing your subscription",
+            "href": "https://www.kimp.io/allfaq/can-i-pause-my-account-if-i-dont-have-a-lot-of-requests-to-make/"
+          },
+          "."
+        ]
+      }
+    ]
+  },
+  {
+    "q": "How can I cancel my subscription?",
+    "a": [
+      "You can simply log in to your Kimp account at www.kimp.io and cancel at any point in time with just a few clicks. You can also request assistance from your dedicated Project Manager, or via our live chat at www.kimp.io. There is only one thing that we will ask: “What could we have done better?” We ask, because we value your feedback."
+    ]
+  },
+  {
+    "q": "Can I get a refund if I haven't used my account recently?",
+    "a": [
+      "We do understand that your workflow will change from time to time, and this is why we make it possible for you to cancel at any time. As Kimp is a monthly subscription service, and we provide the opportunity to cancel your subscription at any point, we do not offer refunds due to inactivity."
+    ]
+  },
+  {
+    "q": "Can I pause my account if I don’t have a lot of requests to make?",
+    "a": [
+      "Yes, you can! We get it. Workflows change and you don’t always need to have an active subscription. But at the same time, you might still need access to your Trello board. And if you’ve gotten into a really good groove with your design team, you may want to make sure that they’re still going to be matched with them when you resume your subscription.",
+      "To address all of this we’ve introduced the “Pause Your Subscription” feature for a flat monthly fee of $19.95. This allows you to pause your account as of the end of the current subscription period so that there is no auto-renewal.",
+      "And it allows you to enjoy these benefits:",
+      {
+        "list": [
+          "Securing your current subscription fee, regardless of any changes to Kimp pricing.",
+          "Having ongoing access to your Trello board, and all of your design files.",
+          "Working with the same Dedicated Design Team when you resume.",
+          "Making the most of your subscription by resuming when you have more design requests."
+        ]
+      },
+      {
+        "p": [
+          "To submit a request to pause your subscrption, simply ",
+          {
+            "label": "log into your account",
+            "href": "https://www.kimp.io/my-account/"
+          },
+          " and submit a request. To request to resume your subscription, log into your account and submit a request."
+        ]
+      }
+    ]
+  }
+]

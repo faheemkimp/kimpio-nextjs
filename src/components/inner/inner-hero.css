@@ -1,0 +1,79 @@
+/*
+ * Inner-page hero (inner-hero.tsx). The resting state is the final state, so
+ * reduced motion shows a complete, static hero.
+ */
+
+/* Giant drifting words: fade at both edges, letters lit from the top */
+.ih-words {
+  mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+}
+.ih-word-fill {
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.95) 0%, rgb(255 255 255 / 0.55) 55%, rgb(255 255 255 / 0.08) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Mascot swoops in from the lower left, overshoots slightly, settles */
+  .ih-swoop {
+    animation: ih-swoop 1.4s 0.15s cubic-bezier(0.22, 1.2, 0.36, 1) both;
+  }
+
+  /* The selection frame appears once the mascot has landed */
+  .ih-frame {
+    animation: ih-fade 0.5s 1.4s ease-out both;
+  }
+
+  /* A collaborator's cursor wandering over the artwork */
+  .ih-cursor {
+    animation: ih-cursor 9s ease-in-out infinite;
+  }
+}
+
+@keyframes ih-swoop {
+  0% {
+    opacity: 0;
+    transform: translate(-70%, 45%) rotate(-14deg) scale(0.7);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes ih-fade {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+}
+@keyframes ih-cursor {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  30% {
+    translate: 70px 40px;
+  }
+  55% {
+    translate: 150px -10px;
+  }
+  80% {
+    translate: 40px 70px;
+  }
+}
+
+/* video scene: blinking "REC" dot (steady under reduced motion) */
+@media (prefers-reduced-motion: no-preference) {
+  .ih-rec {
+    animation: ih-rec 1.2s ease-in-out infinite;
+  }
+}
+@keyframes ih-rec {
+  50% {
+    opacity: 0.25;
+  }
+}

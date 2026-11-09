@@ -80,10 +80,19 @@ export function SectionHeading({
   );
 }
 
-export function Eyebrow({ tone = "light", children }: { tone?: "light" | "dark"; children: ReactNode }) {
+export function Eyebrow({
+  tone = "light",
+  as: Tag = "p",
+  children,
+}: {
+  tone?: "light" | "dark";
+  /** "h6" where the live page has this label as a heading (e.g. "GET STARTED" on /compare-service/). */
+  as?: "p" | "h6";
+  children: ReactNode;
+}) {
   const dark = tone === "dark";
   return (
-    <p
+    <Tag
       data-fx="reveal"
       className={cn(
         "inline-flex items-center gap-2.5 rounded-full py-1.5 pr-4 pl-1.5 text-sm font-semibold shadow-[0_1px_2px_rgb(27_30_35/0.06)] ring-1",
@@ -100,7 +109,7 @@ export function Eyebrow({ tone = "light", children }: { tone?: "light" | "dark";
         <span className="size-1.5 rounded-full bg-brand" />
       </span>
       {children}
-    </p>
+    </Tag>
   );
 }
 

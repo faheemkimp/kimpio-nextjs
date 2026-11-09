@@ -11,8 +11,9 @@ import { GTM_ID } from "@/lib/site";
  * from WordPress' (HttpOnly) login cookie.
  */
 export interface GtmPageData {
-  pagePostType: "frontpage" | "page" | "post";
-  pagePostType2: "single-page" | "single-post";
+  pagePostType: "frontpage" | "page" | "post" | "casestudy";
+  /** Left out where GTM4WP outputs none (the /case-study/ archive). */
+  pagePostType2?: "single-page" | "single-post" | "single-casestudy";
   pageCategory?: string[];
 }
 

@@ -29,7 +29,9 @@ export function proxy(req: NextRequest) {
   if (resolveOwner(pathname, searchParams) === "wordpress") return proxyToWordPress(req);
 
   if (!pathname.endsWith("/")) {
-    const url = req.nextUrl.clone();
+    // A plain URL, not req.nextUrl.clone(): NextURL strips the trailing slash when it
+    // serializes, which turned this into a redirect to itself (an infinite 301 loop).
+    const url = new URL(req.url);
     url.pathname = `${pathname}/`;
     return NextResponse.redirect(url, 301);
   }

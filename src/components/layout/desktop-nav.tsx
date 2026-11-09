@@ -27,7 +27,13 @@ import { NavIcon } from "./nav-icon";
 const BOOK_CALL = { label: "Book A Call", href: "/book-a-call/" };
 
 const itemBase =
-  "relative h-10 rounded-lg bg-transparent px-3.5 text-[1.05rem] font-semibold tracking-[-0.005em] text-ink hover:bg-ink/5 hover:text-ink focus:bg-ink/5 data-popup-open:bg-ink/5 data-popup-open:text-ink";
+  "relative h-10 rounded-lg bg-transparent px-3.5 text-[1.05rem] font-semibold tracking-[-0.005em] transition-colors duration-300";
+// The base trigger style sets bg-muted on several open/hover combos; each one is overridden here.
+const itemLight =
+  "text-ink hover:bg-ink/5 hover:text-ink focus:bg-ink/5 focus:text-ink data-popup-open:bg-ink/5 data-popup-open:text-ink data-popup-open:hover:bg-ink/8 data-open:bg-ink/5 data-open:hover:bg-ink/8 data-open:focus:bg-ink/8";
+/** Over the dark hero: white labels on a dark-glass pill. */
+const itemDark =
+  "text-white hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white data-popup-open:bg-white/15 data-popup-open:text-white data-popup-open:hover:bg-white/20 data-open:bg-white/15 data-open:hover:bg-white/20 data-open:focus:bg-white/20";
 
 const arrowReveal =
   "size-3.5! -translate-x-1 text-brand opacity-0 transition-all duration-200 group-hover/link:translate-x-0 group-hover/link:opacity-100";
@@ -36,9 +42,9 @@ function isActive(pathname: string, href: string) {
   return href === "/" ? pathname === "/" : pathname.startsWith(href);
 }
 
-function ActiveDot() {
-  return <span aria-hidden="true" className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-brand" />;
-}
+/** Active item: the same background as hover (no underline), so the current section reads as "held" hover. */
+const activeLight = "bg-ink/5";
+const activeDark = "bg-white/10";
 
 /* ───────────────────────── link rows ───────────────────────── */
 
@@ -54,16 +60,16 @@ function RowLink({ link, active }: { link: NavLink; active: boolean }) {
       className={cn(rowLink, active && "bg-brand-soft/60")}
     >
       {link.icon ? (
-        <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-brand-soft ring-1 ring-brand/10 transition-[transform,background-color] duration-300 ease-out group-hover/link:-rotate-3 group-hover/link:bg-white">
-          <NavIcon name={link.icon} size={30} />
+        <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-brand-soft ring-1 ring-brand/10 transition-[transform,background-color] duration-300 ease-out group-hover/link:-rotate-3 group-hover/link:bg-white">
+          <NavIcon name={link.icon} className="size-6" />
         </span>
       ) : link.image ? (
         <Image
           src={link.image.src}
           alt={link.image.alt}
-          width={56}
-          height={56}
-          className="size-14 shrink-0 rounded-2xl object-cover ring-1 ring-ink/5 transition-transform duration-300 group-hover/link:-rotate-2"
+          width={44}
+          height={44}
+          className="size-11 shrink-0 rounded-xl object-cover ring-1 ring-ink/5 transition-transform duration-300 group-hover/link:-rotate-2"
         />
       ) : null}
       <span className="flex min-w-0 flex-col gap-1 pt-0.5">
@@ -92,8 +98,8 @@ function CompactLink({ link, active }: { link: NavLink; active: boolean }) {
       )}
     >
       {link.icon && (
-        <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-brand-soft ring-1 ring-brand/10 transition-transform duration-300 group-hover/link:-rotate-3 group-hover/link:bg-white">
-          <NavIcon name={link.icon} size={22} />
+        <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-brand-soft ring-1 ring-brand/10 transition-transform duration-300 group-hover/link:-rotate-3 group-hover/link:bg-white">
+          <NavIcon name={link.icon} className="size-5" />
         </span>
       )}
       {link.label}
@@ -112,7 +118,7 @@ function CompactLink({ link, active }: { link: NavLink; active: boolean }) {
 function Intro({ item }: { item: MegaItem }) {
   const { intro } = item;
   return (
-    <div className="group/intro relative flex h-full min-h-[17rem] flex-col overflow-hidden rounded-2xl bg-ink p-6 text-white">
+    <div className="group/intro relative flex h-full w-full min-h-[17rem] flex-col overflow-hidden rounded-2xl bg-ink p-6 text-white">
       <span
         aria-hidden="true"
         className="pointer-events-none absolute -right-10 -bottom-10 size-52 rounded-full bg-brand/45 blur-3xl"
@@ -188,11 +194,11 @@ function CaseStudyCard({ f }: { f: FeaturedCaseStudy }) {
   return (
     <NavigationMenuLink
       href={f.href}
-      className="group/feat h-full flex-col items-stretch gap-4 rounded-2xl bg-[linear-gradient(160deg,#fff5ec,#f2f5f8)] p-5 whitespace-normal ring-1 ring-ink/5 transition-shadow hover:shadow-lg"
+      className="group/feat h-full w-full flex-col items-stretch gap-4 rounded-2xl bg-[linear-gradient(160deg,#fff5ec,#f2f5f8)] p-5 whitespace-normal ring-1 ring-ink/5 transition-shadow hover:shadow-lg"
     >
       <span className="flex items-center gap-3">
-        <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-white ring-1 ring-ink/5">
-          <NavIcon name="case-studies" size={26} />
+        <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-white ring-1 ring-ink/5">
+          <NavIcon name="case-studies" className="size-6" />
         </span>
         <span className="flex flex-col">
           <span className="text-[1.05rem] font-bold text-ink">{f.heading}</span>
@@ -237,7 +243,7 @@ function TrustBar() {
         className="group/help ml-auto shrink-0 gap-2.5 rounded-full py-1 pr-3 pl-1 text-sm font-semibold whitespace-nowrap text-ink hover:bg-white hover:text-brand focus:bg-white"
       >
         <span className="grid size-8 place-items-center rounded-full bg-brand-soft">
-          <NavIcon name="book-call" size={17} />
+          <NavIcon name="book-call" className="size-4.5" />
         </span>
         <span className="font-normal text-muted-foreground">Have questions?</span>
         {BOOK_CALL.label}
@@ -247,15 +253,21 @@ function TrustBar() {
   );
 }
 
-/** Contained dropdown: link columns on the left, a feature card on the right, trust bar below. */
+/**
+ * Contained dropdown: link columns on the left, a feature card on the right, trust bar below.
+ * Every panel shares one fixed width so the popup never resizes between menus; it must be
+ * definite (not grown from content) because Base UI sizes the popup from the content's
+ * natural width, and a growing card made that measurement balloon.
+ */
 function MegaPanel({ item, pathname }: { item: MegaItem; pathname: string }) {
   return (
-    <div className="w-max max-w-[calc(100vw-2rem)]">
+    <div className="w-[66rem] max-w-[calc(100vw-2rem)]">
       <div className="flex items-stretch gap-6 p-5">
         <div className="min-w-0 py-1">
           <Links item={item} pathname={pathname} />
         </div>
-        <div className="w-[19rem] shrink-0">
+        {/* Fills whatever width the link columns leave in the fixed-width panel. */}
+        <div className="flex min-w-[19rem] flex-1">
           {item.featured ? <CaseStudyCard f={item.featured} /> : <Intro item={item} />}
         </div>
       </div>
@@ -271,8 +283,16 @@ function MegaPanel({ item, pathname }: { item: MegaItem; pathname: string }) {
  * header, centred under it and sized to its content.
  * Same items and destinations as the live WordPress menu.
  */
-export function DesktopNav({ anchor }: { anchor?: RefObject<HTMLElement | null> }) {
+export function DesktopNav({
+  anchor,
+  onDark = false,
+}: {
+  anchor?: RefObject<HTMLElement | null>;
+  onDark?: boolean;
+}) {
   const pathname = usePathname();
+  const item = onDark ? itemDark : itemLight;
+  const activeBg = onDark ? activeDark : activeLight;
   return (
     <NavigationMenu
       aria-label="Main"
@@ -281,34 +301,38 @@ export function DesktopNav({ anchor }: { anchor?: RefObject<HTMLElement | null> 
       anchor={anchor}
       sideOffset={10}
       collisionPadding={16}
-      popupClassName="rounded-3xl overflow-hidden"
+      popupClassName={cn(
+        "rounded-3xl overflow-hidden",
+        // Smoother open/close: drop and settle in, lift away a little faster on close.
+        "data-starting-style:-translate-y-3 data-starting-style:scale-[0.96]",
+        "data-ending-style:-translate-y-2 data-ending-style:scale-[0.97] data-ending-style:duration-[0.22s] data-ending-style:ease-[cubic-bezier(0.4,0,1,1)]",
+        "motion-reduce:transition-none",
+      )}
     >
       <NavigationMenuList className="gap-0.5">
-        {MAIN_NAV.map((item) => {
-          if (item.kind === "link") {
-            const active = isActive(pathname, item.href);
+        {MAIN_NAV.map((navItem) => {
+          if (navItem.kind === "link") {
+            const active = isActive(pathname, navItem.href);
             return (
-              <NavigationMenuItem key={item.label}>
+              <NavigationMenuItem key={navItem.label}>
                 <NavigationMenuLink
-                  href={item.href}
+                  href={navItem.href}
                   aria-current={active ? "page" : undefined}
-                  className={cn(itemBase, "inline-flex items-center", active && "text-ink")}
+                  className={cn(itemBase, item, "inline-flex items-center", active && activeBg)}
                 >
-                  {item.label}
-                  {active && <ActiveDot />}
+                  {navItem.label}
                 </NavigationMenuLink>
               </NavigationMenuItem>
             );
           }
-          const active = item.groups.some((g) => g.links.some((l) => isActive(pathname, l.href)));
+          const active = navItem.groups.some((g) => g.links.some((l) => isActive(pathname, l.href)));
           return (
-            <NavigationMenuItem key={item.label}>
-              <NavigationMenuTrigger className={cn(itemBase, active && "text-ink")}>
-                {item.label}
-                {active && <ActiveDot />}
+            <NavigationMenuItem key={navItem.label}>
+              <NavigationMenuTrigger className={cn(itemBase, item, active && activeBg)}>
+                {navItem.label}
               </NavigationMenuTrigger>
               <NavigationMenuContent className="p-0">
-                <MegaPanel item={item} pathname={pathname} />
+                <MegaPanel item={navItem} pathname={pathname} />
               </NavigationMenuContent>
             </NavigationMenuItem>
           );

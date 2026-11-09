@@ -294,6 +294,104 @@
   }
 }
 
+/* ---------------- graphic-design-services contact cards (faq-cta.tsx) ---------------- */
+@media (prefers-reduced-motion: no-preference) {
+  /* Support thread: request -> typing -> reply -> call booked, then reset (9s loop). */
+  .gds-thread .gds-msg-1 {
+    animation: gds-msg-1 9s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+  }
+  .gds-thread .gds-msg-typing {
+    animation: gds-msg-typing 9s ease-out infinite;
+  }
+  .gds-thread .gds-msg-2 {
+    animation: gds-msg-2 9s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+  }
+  .gds-thread .gds-msg-3 {
+    animation: gds-msg-3 9s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+  }
+  .gds-thread .gds-live {
+    animation: gds-live 2s ease-out infinite;
+  }
+}
+/* Typing indicator is only part of the animated sequence; hidden in the static state. */
+.gds-msg-typing {
+  opacity: 0;
+}
+@keyframes gds-msg-1 {
+  0%,
+  6% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  12%,
+  90% {
+    opacity: 1;
+    transform: none;
+  }
+  97%,
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+@keyframes gds-msg-typing {
+  0%,
+  18% {
+    opacity: 0;
+  }
+  22%,
+  38% {
+    opacity: 1;
+  }
+  41%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes gds-msg-2 {
+  0%,
+  40% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  46%,
+  90% {
+    opacity: 1;
+    transform: none;
+  }
+  97%,
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+@keyframes gds-msg-3 {
+  0%,
+  58% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  64%,
+  90% {
+    opacity: 1;
+    transform: none;
+  }
+  97%,
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+@keyframes gds-live {
+  0% {
+    box-shadow: 0 0 0 0 rgb(52 211 153 / 0.7);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 6px rgb(52 211 153 / 0);
+  }
+}
+
 /* ---------------- hero workflow animation (src/components/home/workflow-animation) ---------------- */
 .wf-root {
   container-type: inline-size;
@@ -440,21 +538,8 @@
   }
 }
 
-/* ---------------- hero frame: rounded box with a travelling light border ---------------- */
-@property --hero-angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
+/* ---------------- hero frame: rounded dark-teal box ---------------- */
 .hero-frame {
-  --hero-light: conic-gradient(
-    from var(--hero-angle),
-    transparent 0% 62%,
-    rgb(3 129 109 / 0.55) 74%,
-    #f07422 84%,
-    #ffc08f 88%,
-    transparent 96% 100%
-  );
   /* Dark teal: deep base, brand-teal glow top-left, a faint warm hint bottom-right */
   background:
     radial-gradient(60% 55% at 12% 8%, rgb(0 128 108 / 0.55), transparent 70%),
@@ -462,47 +547,32 @@
     linear-gradient(160deg, #04463d 0%, #032f2a 55%, #021f1c 100%);
   color: #fff;
 }
-/* crisp 1.5px light line riding the border */
-.hero-frame::before {
-  content: "";
-  position: absolute;
-  border-radius: inherit;
-  pointer-events: none;
-  background: var(--hero-light);
-  animation: hero-light-spin 9s linear infinite;
-}
-.hero-frame::before {
-  inset: 0;
-  z-index: 2;
-  padding: 1.5px;
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask:
-    linear-gradient(#000 0 0) content-box exclude,
-    linear-gradient(#000 0 0);
-}
-@keyframes hero-light-spin {
-  to {
-    --hero-angle: 360deg;
+
+/* ---------------- hero hub mascot: gentle hover while flying ---------------- */
+@keyframes hub-mascot-float {
+  50% {
+    transform: translateY(-6px);
   }
 }
+.hub-mascot-float {
+  animation: hub-mascot-float 3.2s ease-in-out infinite;
+}
 @media (prefers-reduced-motion: reduce) {
-  .hero-frame::before {
+  .hub-mascot-float {
     animation: none;
-    --hero-angle: 210deg;
   }
 }
 
 /* ---------------- site header: compact fixed bar once the page scrolls ---------------- */
 @keyframes header-drop-in {
   from {
-    transform: translateY(-100%);
+    /* Fully above the viewport, including the strip's top gap. */
+    transform: translateY(calc(-100% - 2rem));
+    opacity: 0;
   }
 }
 .header-bar-fixed {
-  animation: header-drop-in 0.3s ease-out;
+  animation: header-drop-in 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 @media (prefers-reduced-motion: reduce) {
   .header-bar-fixed {

@@ -17,6 +17,8 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
  *   data-fx="words"       masked word-by-word rise (SectionHeading titles)
  *   data-fx="panel"       inset panel that grows to full size while scrolling in
  *   data-fx="parallax"    drifts with scroll; data-speed (-1..1), default 0.2
+ *   data-fx="drift"       slides sideways with scroll; data-distance (% of width), default 12
+ *   data-fx="lift"        rises data-lift px (default 120) over the first data-range px (default 700) of its section scrolling away; smoothed
  *   data-fx="draw"        SVG path(s) inside draw themselves with scroll
  *   data-fx="count"       leading number counts up once ("875K+", "$1,397")
  *   data-fx="merge"       slides toward the centre; data-from="left|right"
@@ -85,6 +87,34 @@ export function ScrollFx() {
             borderRadius: getComputedStyle(el).borderRadius || "2.5rem",
             ease: "none",
             scrollTrigger: { trigger: el, start: "top bottom", end: "top 30%", scrub: 0.6 },
+          },
+        );
+      });
+
+      // Lift: rises by data-lift px while its section scrolls out of view. Starts from
+      // its designed position (progress 0 at the top of the page), so heroes load
+      // exactly as laid out. Different lift values on sibling layers read as depth.
+      // The whole lift happens over the first data-range px of scroll (default 700),
+      // so it reads clearly within a normal flick instead of being spread thin.
+      all('[data-fx="lift"]').forEach((el) => {
+        const scope = el.closest("section") ?? el;
+        gsap.to(el, {
+          y: -Number(el.dataset.lift ?? 120),
+          ease: "none",
+          scrollTrigger: { trigger: scope, start: "top top", end: `+=${el.dataset.range ?? 700}`, scrub: 0.8 },
+        });
+      });
+
+      // Sideways drift tied to scroll (only moves while the reader scrolls).
+      all('[data-fx="drift"]').forEach((el) => {
+        const dist = Number(el.dataset.distance ?? 12);
+        gsap.fromTo(
+          el,
+          { xPercent: dist / 2 },
+          {
+            xPercent: -dist / 2,
+            ease: "none",
+            scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: 0.6 },
           },
         );
       });
